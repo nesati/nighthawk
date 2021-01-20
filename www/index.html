@@ -31,8 +31,17 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    L.marker([50.0878859, 14.3873313]).addTo(map)
-        .bindPopup('A pretty CSS3 popup.<br> Easily customizable.').on('click', function(e) {alert(e.latlng);})
+    fetch("markers.json").then(r => {
+        if(r.ok) {
+            r.json().then(data => {
+                data.forEach(val => {
+                    L.marker([val["lat"], val["lng"]]).addTo(map)
+                        .bindPopup(val["desc"])
+                        .on('click', function(e) {alert(e.latlng);})
+                })
+            });
+        }
+    });
     window.dispatchEvent(new Event('resize'))
 </script>
 <style>
