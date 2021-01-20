@@ -17,8 +17,7 @@
     }).addTo(map);
 
     L.marker([51.5, -0.09]).addTo(map)
-        .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-        .openPopup();
+        .bindPopup('A pretty CSS3 popup.<br> Easily customizable.').on('click', function(e) {alert(e.latlng);})
 </script>
 <style>
     #mapid { height: 180px; }
