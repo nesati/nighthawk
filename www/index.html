@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Krajina za školou</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Krajina za školou</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossorigin=""/>
@@ -10,9 +14,18 @@
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<div id="mapid"></div>
+<h1>Krajina za školou</h1>
+<h1 class="name">xhorsi02 & xcejvl01</h1>
+<div class="break"></div>
+<h2>Podnadpis</h2>
+<div class="maxwidth">
+    <p>
+        Lorem ipsum
+    </p>
+<div id="mapid" class="maxwidth"></div>
 <script>
     var map = L.map('mapid').setView([50.0878859, 14.3873313], 15);
     map.invalidateSize()
@@ -41,9 +54,5 @@
     });
     window.dispatchEvent(new Event('resize'))
 </script>
-<style>
-    #mapid {height: 600px;}
-    .leaflet-tile {filter: grayscale(0.8);}
-</style>
 </body>
 </html>
