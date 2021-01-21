@@ -81,5 +81,31 @@
     "img3-year": 2020,
     "img3-src": "xcejvl01",
     "img3-href": ""
+  },
+  {
+    "lat": 50.07440922068281,
+    "lng": 14.44052520005029,
+    "title": "Bývalá Vinohradská synagoga",
+    "img1": "img/synagoga-pred.png",
+    "img1-year": 1910,
+    "img1-src": "Wikimedia Commons",
+    "img1-href": "https://commons.wikimedia.org/wiki/File:Vinohradska_synagoga_(cropped).jpg",
+    "img2": "img/synagoga-dnes.png",
+    "img2-year": 2020,
+    "img2-src": "xcejvl01",
+    "img2-href": ""
+  },
+  {
+    "lat": 50.07559587417999,
+    "lng": 14.414095549803323,
+    "title": "Neorenesanční dům (Arnošta Jenšovského) na místě dnešního Tančícího domu",
+    "img1": "img/tancici-dum-po.jpg",
+    "img1-year": 1945,
+    "img1-src": "archiv IPR",
+    "img1-href": "https://magazin.aktualne.cz/foto/unikatni-snimky-naletu-na-prahu-porizene-spojeneckymi-letoun/r~a74e5de8f2ca11e6bc0e002590604f2e/r~6f20cb0ef2ca11e6b2310025900fea04/",
+    "img2": "img/tancici-dum-dnes.png",
+    "img2-year": 2020,
+    "img2-src": "xcejvl01",
+    "img2-href": ""
   }
 ]
