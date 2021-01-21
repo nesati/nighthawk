@@ -19,7 +19,15 @@ fetch("markers.json").then(r => {
                 L.marker([val["lat"], val["lng"]], {icon: photoIcon}).addTo(map)
                     .bindPopup(val["desc"])
                     .on('click', function (e) {
-                        alert(e.latlng);
+                        document.getElementById('img-right').src = [val["img1"]],
+                            document.getElementById('img-left').src = [val["img2"]],
+                            document.getElementById('title-of-comparison').innerHTML = [val["desc"]],
+                            document.getElementById('img-right-year').innerHTML = [val["img1-year"]],
+                            document.getElementById('img-left-year').innerHTML = [val["img2-year"]],
+                            document.getElementById('img-left-index').href = [val["img2-href"]],
+                            document.getElementById('img-left-index').innerHTML = [val["img2-src"]],
+                            document.getElementById('img-right-index').href = [val["img1-href"]],
+                            document.getElementById('img-right-index').innerHTML = [val["img1-src"]];
                     })
             })
         });

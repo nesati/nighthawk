@@ -22,7 +22,7 @@
 <h1 class="name">kolem Gymnázia Jana Keplera</h1>
 <div class="break"></div>
 <h2>O projektu
-    <div class="toggleHide"><i class="down"></i></div>
+    <span class="toggleHide"><i class="down"></i></span>
 </h2>
 <aside class="elementToHide">
     <div class="maxwidth">
@@ -38,6 +38,28 @@
 </aside>
 <div id="mapid" class="maxwidth"></div>
 <script src="map.js" type="text/javascript"></script>
+<h2 id="title-of-comparison">Title</h2>
+<h3>Srovnání mezi lety
+    <span id="img-right-year">0000</span>&nbsp;<sup><a id="img-right-index"
+                                                       href="http://katalog.ahmp.cz/pragapublica/permalink?xid=A118708DB67611DF820F00166F1163D4"
+                                                       target="_blank"></a></sup>&nbsp;(vlevo) a
+    <span id="img-left-year">0000</span>&nbsp;<sup><a id="img-left-index"
+                                                      href="http://katalog.ahmp.cz/pragapublica/permalink?xid=A118708DB67611DF820F00166F1163D4"
+                                                      target="_blank"></a></sup>&nbsp;(vpravo)</h3>
+<div class="img-comp-container">
+    <div class="img-comp-img">
+        <img id="img-left" height="748" src="" width="968">
+    </div>
+    <div class="img-comp-img img-comp-overlay">
+        <img id="img-right" height="748" src="" width="968">
+    </div>
+</div>
+<div id="warning" style="display: none">
+    Tato stránka funguje nejlépe na větších obrazovkách. Pokud možno otevírejte ji na počítači.
+</div>
 <script src="script.js" type="text/javascript"></script>
+<script>
+    initComparisons();
+</script>
 </body>
 </html>
