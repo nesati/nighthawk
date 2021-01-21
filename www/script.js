@@ -90,3 +90,8 @@ function test_res() {
         document.getElementById("warning").style.display = "block";
     }
 }
+
+$(".toggleHide").click(function() {
+    $(".elementToHide").slideToggle("fast");
+    $(this).find("i").toggleClass("down up");
+});
