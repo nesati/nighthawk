@@ -2,8 +2,23 @@
   {
     "lat": 50.0878859,
     "lng": 14.3873313,
-    "desc": "Gymnásium Jana Keplera",
+    "desc": "Gymnázium Jana Keplera",
     "img1": "img/pvz1903.jpg",
     "img2": "img/pvz1870.jpg"
+  },
+  {
+    "lat": 50.090722019891615,
+    "lng": 14.400663236315468,
+    "desc": "Bazilika sv. Jíří z Velké jižní věže katedrály sv. Víta",
+    "img1": "img/pvz1903.jpg",
+    "img2": "img/pvz1870.jpg",
+    "img3": "img/pvz2019.jpg"
+  },
+  {
+    "lat": 50.09078310949991,
+    "lng": 14.40044463628904,
+    "desc": "Strahovský klášter z Velké jižní věže katedrály sv. Víta",
+    "img1": "img/A5C01AA1D6F211E5A64F74D435EEBE90.png",
+    "img2": "img/strahklas2019.jpg"
   }
 ]
