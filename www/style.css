@@ -116,23 +116,23 @@ ul {
     flex-wrap: wrap;
 }
 
-.img-comp-container {
+#compare {
     position: relative;
-    height: 748px; /*should be the same height as the images*/
     margin: 10px auto;
-    max-width: 968px;
 }
 
-.img-comp-img {
-    position: absolute;
-    width: auto;
-    height: auto;
-    overflow: hidden;
-}
-
-.img-comp-img img {
+#img-left, #img-right {
     display: block;
     vertical-align: middle;
+}
+.img-comp-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#img-comp-overlap {
+    overflow: hidden;
 }
 
 .img-comp-slider {
@@ -195,4 +195,8 @@ i:hover {
 .toggleHide {
     display: inline-block;
     margin: 0 10px 10px 7px;
+}
+#compare {
+    max-width: 100%;
+    width: 970px;
 }
