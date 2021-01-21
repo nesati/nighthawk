@@ -22,7 +22,7 @@ fetch("markers.json").then(r => {
                         reset()
                         compare(val["img2"], val["img1"])
                         compare(val["img3"], val["img2"])
-                        document.getElementById('title-of-comparison').innerHTML = [val["desc"]],
+                        document.getElementById('title-of-comparison').innerHTML = [val["title"]],
                         document.getElementById('img-right-year').innerHTML = [val["img1-year"]],
                         document.getElementById('img-left-year').innerHTML = [val["img2-year"]],
                         document.getElementById('img-left-index').href = [val["img2-href"]],
