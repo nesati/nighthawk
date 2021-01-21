@@ -21,7 +21,7 @@ body {
 }
 
 .leaflet-tile {
-    filter: grayscale(1);
+    filter: grayscale(1) invert(1);
 }
 
 h1 {
