@@ -1,11 +1,19 @@
 function compare(url1, url2) {
     // download images
     let downloaded = 0
-    document.getElementById("img-left").src = url1
-    document.getElementById("img-right").src = url2
 
-    document.getElementById("img-right").onload = download_progess
-    document.getElementById("img-left").onload = download_progess
+    const div = document.createElement("div")
+    div.className = "comparison"
+    div.innerHTML = `
+        <img class="img-right img-comp-overlay max-width" src="`+url1+`">
+        <div class="img-comp-overlap img-comp-overlay max-width">
+            <img class="img-left max-width" src="`+url2+`">
+        </div>`
+
+    div.getElementsByClassName("img-right")[0].onload = download_progess
+    div.getElementsByClassName("img-left")[0].onload = download_progess
+
+    document.getElementById("compare").appendChild(div)
 
     function download_progess(e) {
         downloaded += 1
@@ -15,24 +23,45 @@ function compare(url1, url2) {
         }
     }
 }
+
 function reset() {
+    document.getElementById("compare").innerHTML = "";
+}
+function reset_slider() {
     /*remove all elements with an "img-comp-slider" class:*/
-    const x = document.getElementsByClassName("img-comp-slider");
-    for (let i = 0; i < x.length; i++) {
-        x[i].remove();
-    }
+    const x = [].slice.call(document.getElementsByClassName("img-comp-slider"));
+    console.log(x)
+    x.forEach(el => {
+        console.log(el)
+        el.remove();
+    });
+}
+function heightOffset(el) {
+    el.parentElement.style.height = el.offsetHeight + "px"
 }
 function resize() {
-    reset()
+    reset_slider()
 
     // setup resolutions
     let width =  document.getElementById("compare").offsetWidth
-    console.log(width)
-    document.getElementById("img-left").style.width = width + "px"
-    document.getElementById("img-right").style.width = width + "px"
-    document.getElementById("img-comp-overlap").style.width = width + "px"
 
-    compareImages(document.getElementById("img-comp-overlap"))
+    const x = [].slice.call(document.getElementsByClassName("max-width"));
+    x.forEach(el => {
+        /*once for each "overlay" element:
+        pass the "overlay" element as a parameter when executing the compareImages function:*/
+        el.style.width = width + "px"
+        if(el.className === "img-comp-overlap img-comp-overlay max-width") {
+            window.setTimeout(heightOffset.bind(this, el),10)
+        }
+    });
+
+    const y = [].slice.call(document.getElementsByClassName("img-comp-overlap"));
+    y.forEach(el => {
+        /*once for each "overlay" element:
+        pass the "overlay" element as a parameter when executing the compareImages function:*/
+        compareImages(el)
+    });
+
 }
 
 function compareImages(img) {

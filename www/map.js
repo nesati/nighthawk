@@ -19,9 +19,9 @@ fetch("markers.json").then(r => {
                 L.marker([val["lat"], val["lng"]], {icon: photoIcon}).addTo(map)
                     .bindPopup(val["title"])
                     .on('click', function (e) {
+                        reset()
                         compare(val["img2"], val["img1"])
-                        document.getElementById('img-right').src = [val["img1"]],
-                        document.getElementById('img-left').src = [val["img2"]],
+                        compare(val["img3"], val["img2"])
                         document.getElementById('title-of-comparison').innerHTML = [val["desc"]],
                         document.getElementById('img-right-year').innerHTML = [val["img1-year"]],
                         document.getElementById('img-left-year').innerHTML = [val["img2-year"]],

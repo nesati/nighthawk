@@ -117,11 +117,13 @@ ul {
 }
 
 #compare {
-    position: relative;
     margin: 10px auto;
 }
+.comparison {
+    position: relative;
+}
 
-#img-left, #img-right {
+.img-left, .img-right {
     display: block;
     vertical-align: middle;
 }
@@ -131,7 +133,7 @@ ul {
     left: 0;
 }
 
-#img-comp-overlap {
+.img-comp-overlap {
     overflow: hidden;
 }
 
