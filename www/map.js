@@ -20,15 +20,11 @@ fetch("markers.json").then(r => {
                     .bindPopup(val["title"])
                     .on('click', function (e) {
                         reset()
-                        compare(val["img2"], val["img1"])
-                        compare(val["img3"], val["img2"])
-                        document.getElementById('title-of-comparison').innerHTML = [val["title"]],
-                        document.getElementById('img-right-year').innerHTML = [val["img1-year"]],
-                        document.getElementById('img-left-year').innerHTML = [val["img2-year"]],
-                        document.getElementById('img-left-index').href = [val["img2-href"]],
-                        document.getElementById('img-left-index').innerHTML = [val["img2-src"]],
-                        document.getElementById('img-right-index').href = [val["img1-href"]],
-                        document.getElementById('img-right-index').innerHTML = [val["img1-src"]];
+                        for (let i=1; i < val.imgs.length; i++) {
+                            compare(val.imgs[i-1], val.imgs[i])
+                        }
+                        document.getElementById('title-of-comparison').innerHTML = val["title"]
+                        document.getElementById('description').innerHTML = val["desc"]
                     })
             })
         });

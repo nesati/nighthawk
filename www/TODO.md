@@ -1,5 +1,5 @@
 # Seznam úkolů
 - [ ] Fotky na výšku zmenšit
-- [ ] Dodělat nadpisy a popisy pro fotky
+- [x] Dodělat nadpisy a popisy pro fotky
 - [ ] Formulář pro přidávání fotek
-- [ ] Správný počet dvojic fotek
+- [x] Správný počet dvojic fotek
