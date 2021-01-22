@@ -41,9 +41,7 @@ function reset() {
 function reset_slider() {
     /*remove all elements with an "img-comp-slider" class:*/
     const x = [].slice.call(document.getElementsByClassName("img-comp-slider"));
-    console.log(x)
     x.forEach(el => {
-        console.log(el)
         el.remove();
     });
 }

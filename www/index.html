@@ -1,49 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
+    <title>Krajina za školou</title>
     <meta charset="UTF-8">
-    <title>Krajina za školou</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <title>Krajina za školou</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+
+    <!--leaflet-->
+    <link crossorigin="" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-          crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+          rel="stylesheet"/>
+    <script crossorigin=""
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-            crossorigin=""></script>
+            src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+
+    <!--scripts & style-->
     <script src="script.js" type="text/javascript"></script>
     <script src="comparison.js" type="text/javascript"></script>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="style.css" rel="stylesheet">
 </head>
-<body onresize=resize() onload="initHideText()">
-<h1>Krajina za školou</h1>
-<h1 class="name">kolem Gymnázia Jana Keplera</h1>
-<div class="break"></div>
-<h2>O projektu
-    <span class="toggleHide"><i class="down"></i></span>
-</h2>
-<aside class="elementToHide">
-    <div class="maxwidth">
+<body onload="initHideText()" onresize=resize()>
+<header>
+    <h1>Krajina za školou</h1>
+    <h1 class="subtitle">kolem Gymnázia Jana Keplera</h1>
+    <div class="break"></div>
+</header>
+<main>
+    <h2>O projektu
+        <span class="toggleHide"><i class="down"></i></span>
+    </h2>
+    <aside class="elementToHide">
         <p>
-            Tento projekt je inspirován webovými stránkami <a
-                href="https://www.krajinazaskolou.cz/">krajinazaskolou.cz</a>, nicméně jsme jej mírně zmodernizovali a přizpůsobili pro potřeby <b>Gymnázia Jana Keplera</b>. Data jsou dostupná v repositáři na
-            <a href="https://github.com/nesati/nighthawk">GitHub</a>, kam může každý přispět dvojicemi fotografií pro nová místa. Více detailů naleznete v dokumentaci.
+            Tento projekt je inspirován webovými stránkami
+            <a href="https://www.krajinazaskolou.cz/">krajinazaskolou.cz</a>, nicméně jsme jej mírně zmodernizovali
+            a přizpůsobili pro potřeby <b>Gymnázia Jana Keplera</b>. Data jsou dostupná v repositáři na
+            <a href="https://github.com/nesati/nighthawk">GitHub</a>, kam může každý přispět dvojicemi fotografií
+            pro nová místa. Více detailů naleznete v dokumentaci.
         </p>
-        <p>
-            <span class="italic">xhorsi02 & xcejvl01</span>
-        </p>
-
+    </aside>
+    <div class="maxwidth" id="map"></div>
+    <script src="map.js" type="text/javascript"></script>
+    <h2 id="title-of-comparison"></h2>
+    <div id="description"></div>
+    <div id="compare">
     </div>
-</aside>
-<div id="mapid" class="maxwidth"></div>
-<script src="map.js" type="text/javascript"></script>
-<h2 id="title-of-comparison">Title</h2>
-<div id="description"></div>
-<div id="compare">
-</div>
+</main>
 </body>
 </html>

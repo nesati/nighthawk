@@ -1,4 +1,4 @@
-const map = L.map('mapid').setView([50.083333, 14.416667], 14);
+const map = L.map('map').setView([50.083333, 14.416667], 14);
 map.invalidateSize()
 const photoIcon = L.icon({
     iconUrl: 'img/photo-icon.svg',
