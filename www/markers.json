@@ -9,103 +9,141 @@
     "lat": 50.090722019891615,
     "lng": 14.400663236315468,
     "title": "Bazilika sv. Jíří z Velké jižní věže katedrály sv. Víta",
-    "img1": "img/pvz1870.jpg",
-    "img1-year": 1869,
-    "img1-src": "AHMP",
-    "img1-href": "http://katalog.ahmp.cz/pragapublica/permalink?xid=A14CE904B67611DF820F00166F1163D4",
-    "img2": "img/pvz1903.jpg",
-    "img2-year": 1903,
-    "img2-src": "AHMP",
-    "img2-href": "http://katalog.ahmp.cz/pragapublica/permalink?xid=A118708DB67611DF820F00166F1163D4",
-    "img3": "img/pvz2019.jpg",
-    "img3-year": 2019,
-    "img3-src": "xhorsi02",
-    "img3-href": ""
+    "desc": "",
+    "imgs": [
+      {
+        "url": "img/pvz1870.jpg",
+        "year": 1869,
+        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=A14CE904B67611DF820F00166F1163D4'>AHMP</a>"
+      },
+      {
+        "url": "img/pvz1903.jpg",
+        "year": 1903,
+        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=A118708DB67611DF820F00166F1163D4'>AHMP</a>"
+      },
+      {
+        "url": "img/pvz2019.jpg",
+        "year": 2019,
+        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
+      }
+    ]
   },
   {
     "lat": 50.09078310949991,
     "lng": 14.40044463628904,
     "title": "Strahovský klášter z Velké jižní věže katedrály sv. Víta",
-    "img1": "img/A5C01AA1D6F211E5A64F74D435EEBE90.png",
-    "img1-year": 1867,
-    "img1-src": "AHMP",
-    "img1-href": "http://katalog.ahmp.cz/pragapublica/permalink?xid=A5C01AA1D6F211E5A64F74D435EEBE90",
-    "img2": "img/strahklas2019.jpg",
-    "img2-year": 2019,
-    "img2-src": "xhorsi02",
-    "img2-href": ""
+    "desc": "",
+    "imgs": [
+      {
+        "url": "img/A5C01AA1D6F211E5A64F74D435EEBE90.png",
+        "year": 1867,
+        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=A5C01AA1D6F211E5A64F74D435EEBE90'>AHMP</a>"
+      },
+      {
+        "url": "img/strahklas2019.jpg",
+        "year": 2019,
+        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
+      }
+    ]
   },
   {
     "lat": 50.072131936943336,
     "lng": 14.416645453863813,
     "title": "Emauzský klášter",
-    "img1": "img/emauzy-pred.png",
-    "img1-year": 1880,
-    "img1-src": "ASU CAS",
-    "img1-href": "https://stelweb.asu.cas.cz/~slechta/HISTORIE/stpraha/tabulka.html",
-    "img2": "img/emauzy-po.png",
-    "img2-year": 1945,
-    "img2-src": "ASU CAS",
-    "img2-href": "https://stelweb.asu.cas.cz/~slechta/HISTORIE/stpraha/tabulka.html",
-    "img3": "img/emauzy-dnes.png",
-    "img3-year": 2020,
-    "img3-src": "xcejvl01",
-    "img3-href": ""
+    "desc": "<p>Benediktinský klášter se slovanskou liturgií založil Karel IV. v roce 1347 při bývalém farním kostele sv. Kosmy a Damiána. Klášter vyrůstal během šedesátých let 14. století. Kostel Panny Marie a slovanských patronů slavnostně vysvětil pražský arcibiskup Jan Očko z Vlašimi v roce 1372. Za vlády Rudolfa II. byl kostel rekatolizován a v 17. a 18. století prošel výraznými barokními úpravami. Veškeré barokní úpravy zmizely během důsledné regotizace areálu na konci 19. století.</p>\n<p>Při náletu v únoru 1945 na klášter a kostel dopadly 3 ničivé zápalné pumy, každá o váze 227 kg. Zásah zničil obě gotické věže klášterního kostela (severní byla zničena zcela, celá jižní vyhořela). Kostelní klenba se ze dvou třetin zřítila. Gotické budovy vyhořely až na klenby v přízemí. Opravy, které probíhaly v průběhu padesátých let, završila novostavba betonových skořepinových věží podle návrhu architekta Františka Marii Černého z let 1964–1968. Během minulého režimu v areálu sídlila Akademie věd, v roce 1990 byl navrácen benediktinům.</p>n<p>Od října 1964 do března 1965 proběhla mezi šesti vyzvanými architekty – Josefem Pilařem, F. M. Černým, Janem Sokolem, Josefem Hýzlem, Josefem Vlčkem a Oldřichem Stefanem – omezená soutěž na vyřešení západního chrámového průčelí. Většina účastníků se klonila spíše k obnově zničeného dvouvěží. Vítěz soutěže František Maria Černý však uspěl s novotvarem, s průnikem dvou betonových, přibližně trojúhelníkových skořepin s pozlacenými hrody. Formu, která možná skrývá náboženský obsah (= dvě zkřížené andělské perutě), ale neupozorňuje na něj příliš, ocenila dobová kritika jako vzorný příklad spojení starého a nového.</p>",
+    "imgs": [
+      {
+        "url": "img/emauzy-pred.png",
+        "year": 1880,
+        "attribution": "<a href='https://stelweb.asu.cas.cz/~slechta/HISTORIE/stpraha/tabulka.html'>ASU CAS</a>"
+      },
+      {
+        "url": "img/emauzy-po.png",
+        "year": 1945,
+        "attribution": "<a href='https://stelweb.asu.cas.cz/~slechta/HISTORIE/stpraha/tabulka.html'>ASU CAS</a>"
+      },
+      {
+        "url": "img/emauzy-dnes.png",
+        "year": 2020,
+        "attribution": "<a href='mailto:xcejvl01@gjk.cz'>xcejvl01</a>"
+      }
+    ]
   },
   {
     "lat": 50.07326066096008,
     "lng": 14.4185852286344,
     "title": "Faustův dům",
-    "img1": "img/faust-po.png",
-    "img1-year": 1945,
-    "img1-src": "J. Sudek",
-    "img1-href": "http://sudekproject.cz/en/node/195325",
-    "img2": "img/faust-dnes.png",
-    "img2-year": 2020,
-    "img2-src": "xcejvl01",
-    "img2-href": ""
+    "desc": "<p>Základy domu pocházejí ještě z doby před založením Nového Města (1348). Dnešní vzhled je však výsledkem barokních úprav po r. 1769. Z celé řady majitelů domu jsou nejznámější rudolfinský alchymista Edward Kelly a Josef Mladota, jehož rodině palác patřil od roku 1721. Zájem obou majitelů o okultní vědy podnítil vznik faustovské legendy, která se k domu váže. V roce 1902 palác koupila Všeobecná fakultní nemocnice a dnes slouží jako administrativní zázemí a lékárna. Faustův dům byl poškozen při bombardování 14. února 1945, jež těžce postihlo celé Karlovo náměstí.</p>",
+    "imgs": [
+      {
+        "url": "img/faust-po.png",
+        "year": 1945,
+        "attribution": "<a href='http://sudekproject.cz/en/node/195325'>J. Sudek</a>"
+      },
+      {
+        "url": "img/faust-dnes.png",
+        "year": 2020,
+        "attribution": "<a href='mailto:xcejvl01@gjk.cz'>xcejvl01</a>"
+      }
+    ]
   },
   {
     "lat": 50.07462243388193,
     "lng": 14.420395774749222,
     "title": "Jezuitská kolej",
-    "img1": "img/koleje-pred.jpg",
-    "img1-year": 1900,
-    "img1-src": "lumbricus",
-    "img1-href": "https://www.waymarking.com/gallery/image.aspx?f=1&guid=1d7cdf11-d830-4836-9bf4-86ade649d0a4&gid=3",
-    "img2": "img/koleje-po.png",
-    "img2-year": 1945,
-    "img2-src": "ČTK",
-    "img2-href": "https://ct24.ceskatelevize.cz/domaci/1503070-podivejte-se-jak-vypadala-praha-po-bombardovani-v-unoru-1945",
-    "img3": "img/koleje-dnes.png",
-    "img3-year": 2020,
-    "img3-src": "xcejvl01",
-    "img3-href": ""
+    "desc": "<p>Jezuitská kolej s kostelem sv. Ignáce vyrůstala při východní straně Karlova náměstí postupně v letech 1658 až 1759. Raně barokní kostel, který navrhl architekt Carlo Lurago a dostavěl Martin Reiner, byl slavnostně vysvěcen v roce 1678. Po zrušení jezuitského řádu Josefem II. v roce 1773 zde sídlil ústav šlechtičen. Od roku 1789 areál využívá všeobecná (dnes fakultní) nemocnice. Při bombardování 14. února 1945 byla zasažena a pobořena část jezuitské koleje, obnovená po druhé světové válce. Kostel sv. Ignáce přímo zasažen nebyl, ale v jeho interiéru se shromažďovaly oběti náletů k identifikaci.</p>",
+    "imgs": [
+      {
+        "url": "img/koleje-pred.jpg",
+        "year": 1900,
+        "attribution": "<a href='https://www.waymarking.com/gallery/image.aspx?f=1&guid=1d7cdf11-d830-4836-9bf4-86ade649d0a4&gid=3'>lumbricus</a>"
+      },
+      {
+        "url": "img/koleje-po.png",
+        "year": 1945,
+        "attribution": "<a href='https://ct24.ceskatelevize.cz/domaci/1503070-podivejte-se-jak-vypadala-praha-po-bombardovani-v-unoru-1945'>ČTK</a>"
+      },
+      {
+        "url": "img/koleje-po.png",
+        "year": 2020,
+        "attribution": "<a href='mailto:xcejvl01@gjk.cz'>xcejvl01</a>"
+      }
+    ]
   },
   {
     "lat": 50.07440922068281,
     "lng": 14.44052520005029,
     "title": "Bývalá Vinohradská synagoga",
-    "img1": "img/synagoga-pred.png",
-    "img1-year": 1910,
-    "img1-src": "Wikimedia Commons",
-    "img1-href": "https://commons.wikimedia.org/wiki/File:Vinohradska_synagoga_(cropped).jpg",
-    "img2": "img/synagoga-dnes.png",
-    "img2-year": 2020,
-    "img2-src": "xcejvl01",
-    "img2-href": ""
+    "desc": "<p>Synagoga na Vinohradech byla postavena v letech 1894–1896 podle návrhu Wilhelma Stiassného a Karla Horáka v neorenesančním stylu s orientálními prvky. S kapacitou pro 2000 lidí šlo o největší tehdejší pražskou synagogu, s níž je spojena řada významných osobností jako např. spisovatel František Langer; dcerou správce synagogy byla Julie Wohryzková, snoubenka Franze Kafky. 14. února 1945 byla synagoga zasažena bombou a zachvátil ji mohutný požár, který však německé úřady zakázaly uhasit a budovu nechaly vyhořet. Přestože poškození budovy nebylo takové, aby nemohla být opravena a například využita jako sirotčinec či sokolovna, neměl komunistický režim zájem na zachování této cenné budovy, a tak byla i přes protesty představitelů židovské obce v roce 1951 stržena. Na původní parcele nyní stojí základní škola Sázavská, jejíž provoz byl zahájen 1. září 1961.</p>",
+    "imgs": [
+      {
+        "url": "img/synagoga-pred.png",
+        "year": 1910,
+        "attribution": "<a href='https://commons.wikimedia.org/wiki/File:Vinohradska_synagoga_(cropped).jpg'>Wikimedia Commons</a>"
+      },
+      {
+        "url": "img/synagoga-dnes.png",
+        "year": 2020,
+        "attribution": "<a href='mailto:xcejvl01@gjk.cz'>xcejvl01</a>"
+      }
+    ]
   },
   {
     "lat": 50.07559587417999,
     "lng": 14.414095549803323,
     "title": "Neorenesanční dům (Arnošta Jenšovského) na místě dnešního Tančícího domu",
-    "img1": "img/tancici-dum-po.jpg",
-    "img1-year": 1945,
-    "img1-src": "archiv IPR",
-    "img1-href": "https://magazin.aktualne.cz/foto/unikatni-snimky-naletu-na-prahu-porizene-spojeneckymi-letoun/r~a74e5de8f2ca11e6bc0e002590604f2e/r~6f20cb0ef2ca11e6b2310025900fea04/",
-    "img2": "img/tancici-dum-dnes.png",
-    "img2-year": 2020,
-    "img2-src": "xcejvl01",
-    "img2-href": ""
+    "desc": "<p>Tzv. Tančící dům vznikl v letech 1992–1996 na místě proluky, která zůstala po domě zničeném nálety. Jeho autory jsou Frank Owen Gehry a Vlado Milunić. Dům inspirovaný taneční dvojicí Ginger a Fred s prvky dekonstruktivismu byl vyprojektován za pomoci, na svou dobu revolučních, počítačových technologií a při jeho stavbě byla použita řada inovativních materiálů a postupů. Budova je převážně kancelářským sídlem; interiéry kanceláří upravovala řada architektů, mj. Eva Jiřičná. Na místě Tančícího domu původně stál neorenesanční čtyřpatrový obytný dům se zkoseným nárožím od stavitele a magistrátního rady Arnošta Jenšovského z počátku 20. století, který padl za oběť bombardování dne 14. února 1945. Demolice trosek byla dokončena až v roce 1960 a proluka zde zůstala až do 90. let. </p>",
+    "imgs": [
+      {
+        "url": "img/tancici-dum-po.jpg",
+        "year": 1945,
+        "attribution": "<a href='https://magazin.aktualne.cz/foto/unikatni-snimky-naletu-na-prahu-porizene-spojeneckymi-letoun/r~a74e5de8f2ca11e6bc0e002590604f2e/r~6f20cb0ef2ca11e6b2310025900fea04/'>archiv IPR</a>"
+      },
+      {
+        "url": "img/tancici-dum-dnes.png",
+        "year": 2020,
+        "attribution": "<a href='mailto:xcejvl01@gjk.cz'>xcejvl01</a>"
+      }
+    ]
   }
 ]
