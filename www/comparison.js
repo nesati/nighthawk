@@ -5,9 +5,9 @@ function compare(img1, img2) {
     const div = document.createElement("div")
     div.className = "comparison"
     div.innerHTML = `
-        <img class="img-right img-comp-overlay max-width" src="` + img2.url + `">
-        <div class="img-comp-overlap img-comp-overlay max-width">
-            <img class="img-left max-width" src="` + img1.url + `">
+        <img class="img-right img-comp-overlay" src="` + img2.url + `">
+        <div class="img-comp-overlap img-comp-overlay">
+            <img class="img-left" src="` + img1.url + `">
         </div>`
 
     div.getElementsByClassName("img-right")[0].onload = download_progess
@@ -56,14 +56,18 @@ function resize() {
     // setup resolutions
     let width = document.getElementById("compare").offsetWidth
 
-    const x = [].slice.call(document.getElementsByClassName("max-width"));
+    const x = [].slice.call(document.getElementsByClassName("comparison"));
     x.forEach(el => {
-        /*once for each "overlay" element:
-        pass the "overlay" element as a parameter when executing the compareImages function:*/
-        el.style.width = width + "px"
-        if (el.className === "img-comp-overlap img-comp-overlay max-width") {
-            window.setTimeout(heightOffset.bind(this, el), 10)
+        const img = el.getElementsByClassName("img-right")[0]
+        if (img.width < img.height) {
+            width = Math.min(width, img.width / img.height  * 720)
         }
+
+        el.getElementsByClassName("img-right")[0].style.width = width + "px"
+        el.getElementsByClassName("img-left")[0].style.width = width + "px"
+        el.getElementsByClassName("img-comp-overlap")[0].style.width = width + "px"
+        el.style.width = width + "px"
+        window.setTimeout(heightOffset.bind(this, el.getElementsByClassName("img-comp-overlap")[0]), 10)
     });
 
     const y = [].slice.call(document.getElementsByClassName("img-comp-overlap"));
