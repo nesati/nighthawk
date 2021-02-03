@@ -30,6 +30,11 @@ sup {
 p {
     text-align: justify;
 }
+
+pre {
+    background-color: #242526;
+}
+
 .comparison {
     margin: 0 auto;
 }
@@ -42,6 +47,19 @@ body {
     background-color: #000;
     color: #FFC300;
     font-family: "Open Sans", sans-serif;
+}
+
+.align-left {
+    text-align: left;
+    justify-content: left;
+}
+
+.line-height20 {
+    line-height: 2;
+}
+
+.white {
+    color: white;
 }
 
 h1.subtitle {
@@ -160,4 +178,28 @@ i:hover {
     background-color: #FFC300;
     opacity: 0.8;
     border-radius: 50%;
+}
+
+.yellow-code {
+    background-color: yellow;
+    display: inline-block;
+    color:black
+}
+
+.darksalmon-code {
+    background-color: darksalmon;
+    display: inline-block;
+    color:black
+}
+
+.lightseagreen-code {
+    background-color: lightseagreen;
+    display: inline-block;
+    color:black
+}
+
+.deeppink-code {
+    background-color: deeppink;
+    display: inline-block;
+    color:black
 }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>Krajina za školou</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+
+    <!--scripts & style-->
+    <script src="script.js" type="text/javascript"></script>
+    <script src="comparison.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body onload="initHideText()" onresize=resize()>
+<header>
+    <h1>Krajina za školou</h1>
+    <h1 class="subtitle">kolem Gymnázia Jana Keplera</h1>
+    <div class="break"></div>
+</header>
+<main>
+    <h2>Jak přidat nové místo
+        <span class="toggleHide"><i class="down"></i></span>
+    </h2>
+    <span class="align-left white">
+    <aside class="elementToHide">
+        <ul class="line-height20">
+            <li>přidání nových párů fotografií pomocí forku a pull-requestu</li>
+            <li>lze přidávat libovolné množsví fotek k jedomu místu, fotky musí být seřazeny od <strong>nejstarší</strong> k <strong>nejmladší</strong></li>
+            <li>fotky se ukládají do složky <code>/img</code> ve formátu .jpg, snažte se omezit jejich velikost na stovky kB (využijte např. nástroj <a
+                    href="https://riot-optimizer.com/">RIOT</a>)</li>
+            <li>formátování v souboru <a href="markers.json">markers.json</a> je následující:<ul>
+                <li>části označené <samp><div class="yellow-code">žlutou</div></samp> se nahrazují pro každé místo</li>
+                <li><samp><div class="deeppink-code">,</div></samp> se umisťují mezi jednotlivými položkami seznamu; je-li položka poslední, čárka se <samp><div
+                        class="lightseagreen-code">vynechá</div></samp></li>
+                <li>v případě autorských fotografií, uvádějte svůj <samp><div class="darksalmon-code">email</div></samp> jako odkaz s <samp><div
+                        class="darksalmon-code">přezdívkou</div></samp></li>
+            </ul>
+            </li>
+            <li>pracuje se na formatteru, který zjednoduší data-entry</li></ul><pre>
+{
+  "lat": <div class="yellow-code">50.07462243388193</div>,
+  "lng": <div class="yellow-code">14.42039577474922</div>,
+  "title": "<div class="yellow-code">Zde uveďte název</div>",
+  "desc": "&lt;p&gt;<div class="yellow-code">Zde se nachází krátký popis nebo komentář k fotografiím</div>/&lt;p&gt;",
+  "imgs": [
+    {
+      "url": "img/<div class="yellow-code">unikatni_nazev.jpg</div>",
+      "year": <div class="yellow-code">1910</div>,
+      "attribution": "&lt;a href='<div class="yellow-code">https://www.odkaz.na/zdroj/obrazku</div>'&gt;<div
+                    class="yellow-code">akronym zdroje</div>&lt;/a&gt;"
+    }<div class="deeppink-code">,</div>
+    {
+      "url": "img/<div class="yellow-code">unikatni_nazev_2.jpg</div>",
+      "year": <div class="yellow-code">2010</div>,
+      "attribution": "&lt;a href='<div class="yellow-code">https://www.odkaz.na/zdroj/obrazku_2</div>'&gt;<div
+                    class="yellow-code">akronym zdroje</div>&lt;/a&gt;"
+    }<div class="deeppink-code">,</div>
+    {
+      "url": "img/<div class="yellow-code">unikatni_nazev_3.jpg</div>",
+      "year": <div class="yellow-code">2110</div>,
+      "attribution": "&lt;a href='<div class="yellow-code">https://www.odkaz.na/zdroj/obrazku_3</div>'&gt;<div
+                    class="yellow-code">akronym zdroje</div>&lt;/a&gt;"
+    }<div class="lightseagreen-code"> </div>
+  ]
+}<div style="background-color: deeppink; display: inline-block">,</div>
+</pre>
+                <pre>
+    {
+      "url": "img/<div class="yellow-code">unikatni_nazev_4.jpg</div>",
+      "year": <div class="yellow-code">2210</div>,
+      "attribution": "&lt;a href='<div class="darksalmon-code">mailto:mail@server.com</div>'&gt;<div
+                        class="darksalmon-code">přezdívka</div>&lt;/a&gt;"
+    }
+</pre>
+    </aside>
+    </span>
+</main>
+</body>
+</html>
