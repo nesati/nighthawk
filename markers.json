@@ -139,5 +139,23 @@
         "attribution": "<a href='mailto:xcejvl01@gjk.cz'>xcejvl01</a>"
       }
     ]
+  },
+  {
+    "lat": 50.093368,
+    "lng": 14.410439,
+    "title": "Kramářova vila",
+    "desc": "<p>Sídlo bývalého předsedy vlády Karla Kramáře a dnes oficiální rezidence českých premiérů.</p>",
+    "imgs": [
+      {
+        "url": "img/kramarova_vila_1915.jpg",
+        "year": 1915,
+        "attribution": "<a href='https://www.esbirky.cz/predmet/3976564'>archiv NM</a>"
+      },
+      {
+        "url": "img/kramarova_vila_2020.jpg",
+        "year": 2020,
+        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
+      }
+    ]
   }
 ]
