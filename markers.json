@@ -157,5 +157,95 @@
         "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
       }
     ]
+  },
+  {
+    "lat": 50.084118239670374,
+    "lng": 14.417261600511504,
+    "title": "Betlémské náměstí",
+    "desc": "",
+    "imgs": [
+      {
+        "url": "img/D350EA30514C11E58B51D4BED94BB14D.jpg",
+        "year": 1949,
+        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=D350EA30514C11E58B51D4BED94BB14D'>AHMP</a>"
+      },
+      {
+        "url": "img/D350_2020.jpg",
+        "year": 2021,
+        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
+      }
+    ]
+  },
+  {
+    "lat": 50.08703643359795,
+    "lng": 14.420890440411249,
+    "title": "Pohled na Pražský orloj",
+    "desc": "",
+    "imgs": [
+      {
+        "url": "img/D6BF02A7D0C111EABE1F74D435EEBE90.jpg",
+        "year": "neznámo",
+        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=D6BF02A7D0C111EABE1F74D435EEBE90'>AHMP</a>"
+      },
+      {
+        "url": "img/D6BF_2020.jpg",
+        "year": 2021,
+        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
+      }
+    ]
+  },
+  {
+    "lat": 50.08500556160398,
+    "lng": 14.418528737646614,
+    "title": "Průhled hlavní lodí kostela sv. Jiljí",
+    "desc": "",
+    "imgs": [
+      {
+        "url": "img/BC40DCA3A4AB11E5A367406186009F3A.jpg",
+        "year": "neznámo",
+        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=BC40DCA3A4AB11E5A367406186009F3A'>AHMP</a>"
+      },
+      {
+        "url": "img/BC40_2020.jpg",
+        "year": 2021,
+        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
+      }
+    ]
+  },
+  {
+    "lat": 50.08555419477205,
+    "lng": 14.41827617398506,
+    "title": "Pohled do Husovy ulice s kostelem sv. Jiljí",
+    "desc": "",
+    "imgs": [
+      {
+        "url": "img/A11887BDB67611DF820F00166F1163D4.jpg",
+        "year": 1890,
+        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=A11887BDB67611DF820F00166F1163D4'>AHMP</a>"
+      },
+      {
+        "url": "img/A118_2020.jpg",
+        "year": 2021,
+        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
+      }
+    ]
+  },
+  {
+    "lat": 50.084181207105495,
+    "lng": 14.417718925973164,
+    "title": "Pohled na Betlémské náměstí",
+    "desc": "",
+    "imgs": [
+      {
+        "url": "img/A14CDB30B67611DF820F00166F1163D4.jpg",
+        "year": 1905,
+        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=A14CDB30B67611DF820F00166F1163D4'>AHMP</a>"
+      },
+      {
+        "url": "img/A14C_2020.jpg",
+        "year": 2021,
+        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
+      }
+    ]
   }
 ]
