@@ -161,3 +161,7 @@ i:hover {
     opacity: 0.8;
     border-radius: 50%;
 }
+
+.cluster {
+    font-size: 20px;
+}

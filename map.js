@@ -12,11 +12,20 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+const markers = L.markerClusterGroup({
+    showCoverageOnHover: false,
+    iconCreateFunction: function (cluster) {
+        return L.divIcon({html: cluster.getChildCount(), className: 'cluster'});
+    },
+});
+
+map.addLayer(markers);
+
 fetch("markers.json").then(r => {
     if (r.ok) {
         r.json().then(data => {
             data.forEach(val => {
-                L.marker([val["lat"], val["lng"]], {icon: photoIcon}).addTo(map)
+                let marker = L.marker([val["lat"], val["lng"]], {icon: photoIcon})
                     .bindPopup(val["title"])
                     .on('click', function (e) {
                         reset()
@@ -26,6 +35,7 @@ fetch("markers.json").then(r => {
                         document.getElementById('title-of-comparison').innerHTML = val["title"]
                         document.getElementById('description').innerHTML = val["desc"]
                     })
+                markers.addLayer(marker);
             })
         });
     }
