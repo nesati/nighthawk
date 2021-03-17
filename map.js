@@ -15,7 +15,12 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const markers = L.markerClusterGroup({
     showCoverageOnHover: false,
     iconCreateFunction: function (cluster) {
-        return L.divIcon({html: cluster.getChildCount(), className: 'cluster'});
+        return L.divIcon({
+            html: '<div class="cluster">'+ cluster.getChildCount() +'</div>',
+            className: 'marker-cluster',
+            iconSize: [50, 50],
+            iconAnchor: [25, 25]
+        });
     },
 });
 
