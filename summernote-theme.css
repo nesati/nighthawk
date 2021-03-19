@@ -1,0 +1,15 @@
+.panel {
+    background-color: #222;
+}
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #555;
+    border-color: #666;
+}
+.note-editor.note-frame .note-statusbar .note-resizebar .note-icon-bar {
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+.btn-default {
+    background-color: #FFC300;
+    border-color: #666;
+}

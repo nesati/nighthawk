@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>Krajina za školou</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+
+    <!-- include libraries(jQuery, bootstrap) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- include summernote css/js -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
+    <!-- include summernote-cs-CZ -->
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/lang/summernote-cs-CZ.js"></script>
+
+    <!--scripts & style-->
+    <script src="comparison.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="summernote-theme.css" rel="stylesheet">
+    <script>
+        $(document).ready(function() {
+            $('#summernote').summernote({
+                lang: 'cs-CZ',
+                toolbar: [
+                    // [groupName, [list of button]]
+                    ['style', ['bold', 'italic', 'clear']]
+                ]
+            });
+        });
+    </script>
+</head>
+<body onresize=resize()>
+<header>
+    <h1>Krajina za školou</h1>
+    <h1 class="subtitle">kolem Gymnázia Jana Keplera</h1>
+    <div class="break"></div>
+</header>
+<main>
+    <h2>Přidat nové místo</h2>
+    <textarea id="summernote"></textarea>
+</main>
+</body>
+</html>
