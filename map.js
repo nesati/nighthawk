@@ -26,6 +26,17 @@ const markers = L.markerClusterGroup({
 
 map.addLayer(markers);
 
+var setInnerHTML = function(elm, html) { // does run <script> tags in HTML
+    elm.innerHTML = html;
+    Array.from(elm.querySelectorAll("script")).forEach( oldScript => {
+        const newScript = document.createElement("script");
+        Array.from(oldScript.attributes)
+            .forEach( attr => newScript.setAttribute(attr.name, attr.value) );
+        newScript.appendChild(document.createTextNode(oldScript.innerHTML));
+        oldScript.parentNode.replaceChild(newScript, oldScript);
+    });
+}
+
 fetch("markers.json").then(r => {
     if (r.ok) {
         r.json().then(data => {
@@ -34,11 +45,12 @@ fetch("markers.json").then(r => {
                     .bindPopup(val["title"])
                     .on('click', function (e) {
                         reset()
-                        for (let i=1; i < val.imgs.length; i++) {
-                            compare(val.imgs[i-1], val.imgs[i])
-                        }
                         document.getElementById('title-of-comparison').innerHTML = val["title"]
-                        document.getElementById('description').innerHTML = val["desc"]
+                        fetch("places/" + val["desc"]).then(r => {
+                            r.text().then(html => {
+                                setInnerHTML(document.getElementById('description'), html)
+                            });
+                        });
                     })
                 markers.addLayer(marker);
             })

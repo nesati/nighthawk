@@ -5,4 +5,4 @@
 - [x] Správný počet dvojic fotek
 - [ ] Stránka pro úpravu a mazání fotek
 - [ ] vyhledávání podle krajů
-- [ ] oddělit data o obrázcích a popisky do vlastních souborů
+- [x] oddělit data o obrázcích a popisky do vlastních souborů
