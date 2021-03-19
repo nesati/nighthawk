@@ -1,166 +1,80 @@
 [
   {
-    "lat": 50.090722019891615,
-    "lng": 14.400663236315468,
+    "lat": 50.090722,
+    "lng": 14.400663,
     "title": "Bazilika sv. Jíří z Velké jižní věže katedrály sv. Víta",
     "desc": "bazilika-sv-jiri-z-velke-jizni-veze-katedraly-sv-vita.html"
   },
   {
-    "lat": 50.09078310949991,
-    "lng": 14.40044463628904,
+    "lat": 50.090783,
+    "lng": 14.400444,
     "title": "Strahovský klášter z Velké jižní věže katedrály sv. Víta",
     "desc": "strahovsky-klaster-z-velke-jizní-veze-katedraly-sv-vita.html"
   },
   {
-    "lat": 50.072131936943336,
-    "lng": 14.416645453863813,
+    "lat": 50.072131,
+    "lng": 14.416645,
     "title": "Emauzský klášter",
     "desc": "emauzsky-klaster.html"
   },
   {
-    "lat": 50.07326066096008,
-    "lng": 14.4185852286344,
+    "lat": 50.073260,
+    "lng": 14.418585,
     "title": "Faustův dům",
     "desc": "faustuv-dum.html"
   },
   {
-    "lat": 50.07462243388193,
-    "lng": 14.420395774749222,
+    "lat": 50.074622,
+    "lng": 14.420395,
     "title": "Jezuitská kolej",
     "desc": "jezuitska-kolej.html"
   },
   {
-    "lat": 50.07440922068281,
-    "lng": 14.44052520005029,
+    "lat": 50.074409,
+    "lng": 14.440525,
     "title": "Bývalá Vinohradská synagoga",
-    "desc": "",
-    "imgs": [
-    ]
+    "desc": "byvala-vinohradska-synagoga.html"
   },
   {
-    "lat": 50.07559587417999,
-    "lng": 14.414095549803323,
+    "lat": 50.075595,
+    "lng": 14.414095,
     "title": "Neorenesanční dům (Arnošta Jenšovského) na místě dnešního Tančícího domu",
-    "desc": "<p>Tzv. Tančící dům vznikl v letech 1992–1996 na místě proluky, která zůstala po domě zničeném nálety. Jeho autory jsou Frank Owen Gehry a Vlado Milunić. Dům inspirovaný taneční dvojicí Ginger a Fred s prvky dekonstruktivismu byl vyprojektován za pomoci, na svou dobu revolučních, počítačových technologií a při jeho stavbě byla použita řada inovativních materiálů a postupů. Budova je převážně kancelářským sídlem; interiéry kanceláří upravovala řada architektů, mj. Eva Jiřičná. Na místě Tančícího domu původně stál neorenesanční čtyřpatrový obytný dům se zkoseným nárožím od stavitele a magistrátního rady Arnošta Jenšovského z počátku 20. století, který padl za oběť bombardování dne 14. února 1945. Demolice trosek byla dokončena až v roce 1960 a proluka zde zůstala až do 90. let. </p>",
-    "imgs": [
-      {
-        "url": "img/tancici-dum-po.jpg",
-        "year": 1945,
-        "attribution": "<a href='https://magazin.aktualne.cz/foto/unikatni-snimky-naletu-na-prahu-porizene-spojeneckymi-letoun/r~a74e5de8f2ca11e6bc0e002590604f2e/r~6f20cb0ef2ca11e6b2310025900fea04/'>archiv IPR</a>"
-      },
-      {
-        "url": "img/tancici-dum-dnes.jpg",
-        "year": 2020,
-        "attribution": "<a href='mailto:xcejvl01@gjk.cz'>xcejvl01</a>"
-      }
-    ]
+    "desc": "neorenesancni-dum-arnosta-jensovskeho-na-miste-dnesniho-tanciciho-domu.html"
   },
   {
     "lat": 50.093368,
     "lng": 14.410439,
     "title": "Kramářova vila",
-    "desc": "<p>Sídlo bývalého předsedy vlády Karla Kramáře a dnes oficiální rezidence českých premiérů.</p>",
-    "imgs": [
-      {
-        "url": "img/kramarova_vila_1915.jpg",
-        "year": 1915,
-        "attribution": "<a href='https://www.esbirky.cz/predmet/3976564'>archiv NM</a>"
-      },
-      {
-        "url": "img/kramarova_vila_2020.jpg",
-        "year": 2020,
-        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
-      }
-    ]
+    "desc": "kramarova-vila.html"
   },
   {
-    "lat": 50.084118239670374,
-    "lng": 14.417261600511504,
+    "lat": 50.084118,
+    "lng": 14.417261,
     "title": "Betlémské náměstí",
-    "desc": "",
-    "imgs": [
-      {
-        "url": "img/D350EA30514C11E58B51D4BED94BB14D.jpg",
-        "year": 1949,
-        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=D350EA30514C11E58B51D4BED94BB14D'>AHMP</a>"
-      },
-      {
-        "url": "img/D350_2020.jpg",
-        "year": 2021,
-        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
-      }
-    ]
+    "desc": "betlemske-namesti.html"
   },
   {
-    "lat": 50.08703643359795,
-    "lng": 14.420890440411249,
+    "lat": 50.087036,
+    "lng": 14.420890,
     "title": "Pohled na Pražský orloj",
-    "desc": "",
-    "imgs": [
-      {
-        "url": "img/D6BF02A7D0C111EABE1F74D435EEBE90.jpg",
-        "year": "neznámo",
-        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=D6BF02A7D0C111EABE1F74D435EEBE90'>AHMP</a>"
-      },
-      {
-        "url": "img/D6BF_2020.jpg",
-        "year": 2021,
-        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
-      }
-    ]
+    "desc": "pohled-na-prazsky-orloj.html"
   },
   {
-    "lat": 50.08500556160398,
-    "lng": 14.418528737646614,
+    "lat": 50.085005,
+    "lng": 14.418528,
     "title": "Průhled hlavní lodí kostela sv. Jiljí",
-    "desc": "",
-    "imgs": [
-      {
-        "url": "img/BC40DCA3A4AB11E5A367406186009F3A.jpg",
-        "year": "neznámo",
-        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=BC40DCA3A4AB11E5A367406186009F3A'>AHMP</a>"
-      },
-      {
-        "url": "img/BC40_2020.jpg",
-        "year": 2021,
-        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
-      }
-    ]
+    "desc": "pruhled-hlavni-lodi-kostela-sv-jilji.html"
   },
   {
-    "lat": 50.08555419477205,
-    "lng": 14.41827617398506,
+    "lat": 50.085554,
+    "lng": 14.418276,
     "title": "Pohled do Husovy ulice s kostelem sv. Jiljí",
-    "desc": "",
-    "imgs": [
-      {
-        "url": "img/A11887BDB67611DF820F00166F1163D4.jpg",
-        "year": 1890,
-        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=A11887BDB67611DF820F00166F1163D4'>AHMP</a>"
-      },
-      {
-        "url": "img/A118_2020.jpg",
-        "year": 2021,
-        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
-      }
-    ]
+    "desc": "pohled-do-husovy-ulice-s-kostelem-sv-jilji.html"
   },
   {
-    "lat": 50.084181207105495,
-    "lng": 14.417718925973164,
+    "lat": 50.084181,
+    "lng": 14.417718,
     "title": "Pohled na Betlémské náměstí",
-    "desc": "",
-    "imgs": [
-      {
-        "url": "img/A14CDB30B67611DF820F00166F1163D4.jpg",
-        "year": 1905,
-        "attribution": "<a href='http://katalog.ahmp.cz/pragapublica/permalink?xid=A14CDB30B67611DF820F00166F1163D4'>AHMP</a>"
-      },
-      {
-        "url": "img/A14C_2020.jpg",
-        "year": 2021,
-        "attribution": "<a href='mailto:xhorsi02@gjk.cz'>xhorsi02</a>"
-      }
-    ]
+    "desc": "pohled-na-betlemske-namesti.html"
   }
 ]
