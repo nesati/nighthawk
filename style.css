@@ -89,45 +89,6 @@ a:visited {
     border-bottom: #FFC300 2px solid;
 }
 
-/* HIDING TEXT */
-
-i {
-    border: solid white;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 5px;
-    -webkit-transition-duration: 1s;
-    /* Safari */
-    transition-duration: 1s;
-}
-
-i:hover {
-    border: solid #FFC300;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 6px;
-    -webkit-transition-duration: 1s;
-    /* Safari */
-    transition-duration: 1s;
-}
-
-.up {
-    transform: rotate(-180deg) scaleX(.75) scaleY(.75) translate(5px, 5px);
-    transition-duration: 1s;
-    -webkit-transform: rotate(-180deg) scaleX(.75) scaleY(.75) translate(5px, 5px);
-}
-
-.down {
-    transform: rotate(0deg);
-    transition-duration: 1s;
-    -webkit-transform: rotate(0deg);
-}
-
-.toggleHide {
-    display: inline-block;
-    margin: 0 10px 10px 7px;
-}
-
 /* MAP */
 
 #map {
