@@ -34,7 +34,7 @@
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/lang/summernote-cs-CZ.js"></script>
 
     <!--scripts & style-->
-    <script src="comparison.js" type="text/javascript"></script>
+    <script src="pridani-mista.js" type="text/javascript"></script>
     <link href="style.css" rel="stylesheet">
     <link href="summernote-theme.css" rel="stylesheet">
     <script>
@@ -47,7 +47,10 @@
                 ],
                 height: 300,
                 disableDragAndDrop: true,
-                disableResizeEditor: true
+                disableResizeEditor: true,
+                callbacks: {
+                    onChange: update,
+                }
             });
         });
     </script>
@@ -60,6 +63,9 @@
 </header>
 <main>
     <h2>Přidat nové místo</h2>
+    <h3>Název</h3>
+    <input type="text" id="title" onchange="update()">
+    <h3>Místo</h3>
     <div class="maxwidth" id="map"></div>
     <input id="latitude"><input id="longitude">
     <h3>Popis</h3>
@@ -68,9 +74,17 @@
     <div id="images">
     </div>
     <button onclick="addImage()">Přidat obrázek</button>
+    <button onclick="submit()">Potvrdit</button>
+    <h3>%Nadpis%</h3>
+    <pre id="json">
+
+    </pre>
+    <pre id="html">
+
+    </pre>
+
     <script src="map.js" type="text/javascript"></script>
     <script src="locationSelector.js" type="text/javascript"></script>
-    <script src="pridani-mista.js" type="text/javascript"></script>
 </main>
 </body>
 </html>

@@ -33,10 +33,27 @@ p {
 
 pre {
     background-color: #242526;
+    color: #fff;
 }
 
 .comparison {
     margin: 0 auto;
+}
+
+pre {
+    display: inline-block;
+    width: calc(50% - 15px);
+    text-align: left;
+}
+
+/* CODE HIGHLIGHTS */
+
+.key {
+    color: #ffc0cb;
+}
+
+.string {
+    color: #ccffcc;
 }
 
 /* THEME */
@@ -104,6 +121,19 @@ input.year, input.attribution, input.href {
     border-radius: 5px;
     background: none;
     outline: 0;
+}
+#title {
+    background: 0;
+    border: 0;
+    font-size: 17px;
+    border-bottom: solid 2px #FFC300;
+    width: 500px;
+    margin: 15px 0;
+    padding: 5px;
+    outline: 0;
+    font-weight: bold;
+    min-width: 400px;
+    max-width: calc(100% - 30px);
 }
 
 /* MAP */

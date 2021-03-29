@@ -14,6 +14,7 @@ function updateLatLng(lat, lng) {
     document.getElementById('latitude').value = roundGPS(marker.getLatLng().lat);
     document.getElementById('longitude').value = roundGPS(marker.getLatLng().lng);
     map.panTo([lat, lng]);
+    update()
 }
 
 var marker = L.marker(new L.LatLng(50.087887, 14.387285), {
