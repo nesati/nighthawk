@@ -98,6 +98,14 @@ a:visited {
     margin: 5px;
 }
 
+input.year, input.attribution, input.href {
+    border: 3px solid;
+    padding: 7px;
+    border-radius: 5px;
+    background: none;
+    outline: 0;
+}
+
 /* MAP */
 
 #map {

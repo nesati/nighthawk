@@ -62,9 +62,15 @@
     <h2>Přidat nové místo</h2>
     <div class="maxwidth" id="map"></div>
     <input id="latitude"><input id="longitude">
+    <h3>Popis</h3>
+        <textarea id="summernote"></textarea>
+    <h3>Obrázky</h3>
+    <div id="images">
+    </div>
+    <button onclick="addImage()">Přidat obrázek</button>
     <script src="map.js" type="text/javascript"></script>
     <script src="locationSelector.js" type="text/javascript"></script>
-    <textarea id="summernote"></textarea>
+    <script src="pridani-mista.js" type="text/javascript"></script>
 </main>
 </body>
 </html>
