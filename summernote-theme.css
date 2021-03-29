@@ -13,3 +13,11 @@
     background-color: #FFC300;
     border-color: #666;
 }
+.btn-default:hover {
+    background-color: #FFDB66;
+}
+
+.note-editor .note-editing-area .note-editable {
+    color: #FFF;
+    text-align: left;
+}
