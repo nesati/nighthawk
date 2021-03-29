@@ -125,6 +125,28 @@ input.year, input.attribution, input.href {
     font-family: "Open Sans", sans-serif;
 }
 
+.marker-cluster {
+    background-color: rgba(255, 195, 0, 0.7);
+    border-radius: 50%;
+    font: 14px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cluster {
+    height: 70%;
+    width: 70%;
+    background-color: rgba(255, 195, 0, 1);
+    border-radius: 50%;
+    font: 14px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* COMPARISON */
 
 .comparison {
@@ -156,50 +178,4 @@ input.year, input.attribution, input.href {
     background-color: #FFC300;
     opacity: 0.8;
     border-radius: 50%;
-}
-
-.yellow-code {
-    background-color: yellow;
-    display: inline-block;
-    color:black
-}
-
-.darksalmon-code {
-    background-color: darksalmon;
-    display: inline-block;
-    color:black
-}
-
-.lightseagreen-code {
-    background-color: lightseagreen;
-    display: inline-block;
-    color:black
-}
-
-.deeppink-code {
-    background-color: deeppink;
-    display: inline-block;
-    color:black
-}
-
-.marker-cluster {
-    background-color: rgba(255, 195, 0, 0.7);
-    border-radius: 50%;
-    font: 14px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
-    color: black;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cluster {
-    height: 70%;
-    width: 70%;
-    background-color: rgba(255, 195, 0, 1);
-    border-radius: 50%;
-    font: 14px/2 "Helvetica Neue", Arial, Helvetica, sans-serif;
-    color: black;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
