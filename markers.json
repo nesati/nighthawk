@@ -77,4 +77,11 @@
     "title": "Pohled na Betlémské náměstí",
     "desc": "pohled-na-betlemske-namesti.html"
   }
+  
+  {
+    "lat": 50.0871386,
+    "lng": 14.3253981,
+    "title": "Pohled na Hvězdu z Ruzyně",
+    "desc": "pohled-na-hvezdu-z-ruzyne.html"
+  }
 ]
