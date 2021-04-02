@@ -12,7 +12,8 @@ const diacritics = {
     'ú': 'u',
     'ů': 'u',
     'ý': 'y',
-    'ž': 'z'
+    'ž': 'z',
+    'í': 'i'
 }
 const allowed_chars = 'abcdefghijklmnopqrstuvwxyz0123456789'.split('')
 
@@ -49,8 +50,8 @@ function syntaxHighlight(json) {
     if (typeof json != 'string') {
         json = JSON.stringify(json, undefined, 2);
     }
-    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+    json = json.replaceAll(/&/g, '&amp;').replaceAll(/</g, '&lt;').replaceAll(/>/g, '&gt;');
+    return json.replaceAll(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
         var cls = 'number';
         if (/^"/.test(match)) {
             if (/:$/.test(match)) {
@@ -71,7 +72,7 @@ function title2file(text, ext) {
     text = text.toLowerCase()
     Object.entries(diacritics).forEach(entry => {
         const [key, value] = entry;
-        text = text.replace(key, value)
+        text = text.replaceAll(key, value)
     });
 
     let chars = text.split('');
@@ -84,7 +85,7 @@ function title2file(text, ext) {
     })
 
     text = chars.join('')
-    text = text.replace(/-+/g, "-");
+    text = text.replaceAll(/-+/g, "-");
 
     if (text === '') {
         return text
@@ -129,7 +130,7 @@ function update() {
     html += "\n}\ninit();\n</script>"
 
     html += document.getElementById('summernote').value
-    html = html.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    html = html.replaceAll(/&/g, '&amp;').replaceAll(/</g, '&lt;').replaceAll(/>/g, '&gt;').replaceAll(/"/g, '&quot;');
 
     document.getElementById('html').innerHTML = html
     document.getElementById('nameOfGeneratedHTML').innerHTML = title2file(document.getElementById('title').value, '.html')
