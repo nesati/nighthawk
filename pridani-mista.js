@@ -34,7 +34,7 @@ function addImage(e=null, removable=true) {
         <input type="text" class="href" placeholder="Odkaz na zdroj" onchange="update()" required>
     `
     if (removable) {
-        div.innerHTML += '<button class="x-button" onclick="removeImage(event)">X</button>'
+        div.innerHTML += '<button class="x-button formButton" onclick="removeImage(event)">X</button>'
     }
     document.getElementById('images').appendChild(div)
     update()

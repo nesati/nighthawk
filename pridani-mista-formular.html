@@ -66,7 +66,7 @@
     <form id="form">
     <h2>Přidat nové místo</h2>
     <h3>Zadejte titulek, resp. název místa</h3>
-    <input type="text" id="title" onchange="update()" placeholder="Zde zadejte skvělý název místa" required>
+    <input type="text" id="title" onchange="update()" placeholder="Zde zadejte výstižný název místa" required>
     <h3>Vyberte místo na mapě nebo zadejte souřadnice</h3>
     <div class="maxwidth" id="map"></div>
     <input id="latitude" required><input id="longitude" required>
@@ -78,7 +78,7 @@
     <button class="formButton" onclick="addImage(event)">Přidat obrázek ke srování</button>
     <button class="formButton" onclick="validate(event)">Vygenerovat formátování souborů</button>
     <h3>Výstupní formát nového místa</h3>
-    <h4>Do <code>markers.json</code> přidejte toto:</h4>
+    <h4>V <code>markers.json</code> oddělte poslední místo čárkou a přidejte toto:</h4>
     <pre id="json" class="halfPRE">
 
     </pre>
