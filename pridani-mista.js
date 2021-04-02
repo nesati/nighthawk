@@ -17,6 +17,11 @@ const diacritics = {
 }
 const allowed_chars = 'abcdefghijklmnopqrstuvwxyz0123456789'.split('')
 
+// chromium fix
+if (String.prototype.replaceAll === undefined) {
+    String.prototype.replaceAll = String.prototype.replace
+}
+
 function addImage(e=null, removable=true) {
     if (e !== null) {
         e.preventDefault()
