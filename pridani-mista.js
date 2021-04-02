@@ -43,6 +43,7 @@ window.addEventListener('load', ev => {
     addImage(null, false)
     addImage(null, false)
     update()
+    document.getElementById('title').value = ''
 });
 
 // https://stackoverflow.com/questions/4810841/pretty-print-json-using-javascript
