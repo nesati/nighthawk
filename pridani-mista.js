@@ -16,15 +16,20 @@ const diacritics = {
 }
 const allowed_chars = 'abcdefghijklmnopqrstuvwxyz0123456789'.split('')
 
-function addImage() {
+function addImage(e=null, removable=true) {
+    if (e !== null) {
+        e.preventDefault()
+    }
     const div = document.createElement('div')
     div.classList.add('fields_year_attribution_href');
     div.innerHTML = `
-        <input type="number" class="year" placeholder="2021" onchange="update()">
-        <input type="text" class="attribution" placeholder="Zkratka či název zdroje" onchange="update()">
-        <input type="text" class="href" placeholder="Odkaz na zdroj" onchange="update()">
-        <button class="x-button" onclick="removeImage(event)">X</button>
+        <input type="number" class="year" placeholder="2021" onchange="update()" required>
+        <input type="text" class="attribution" placeholder="Zkratka či název zdroje" onchange="update()" required>
+        <input type="text" class="href" placeholder="Odkaz na zdroj" onchange="update()" required>
     `
+    if (removable) {
+        div.innerHTML += '<button class="x-button" onclick="removeImage(event)">X</button>'
+    }
     document.getElementById('images').appendChild(div)
     update()
 }
@@ -34,8 +39,8 @@ function removeImage(e) {
 }
 
 window.addEventListener('load', ev => {
-    addImage()
-    addImage()
+    addImage(null, false)
+    addImage(null, false)
     update()
 });
 
@@ -130,6 +135,36 @@ function update() {
     document.getElementById('nameOfGeneratedHTML').innerHTML = title2file(document.getElementById('title').value, '.html')
 }
 
-function submit() {
+function isNumeric(n) {
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
 
+function validate(e) {
+    e.preventDefault()
+
+    const required = document.getElementById('form').querySelectorAll(':required')
+    for (let i in required) {
+        if (!required.hasOwnProperty(i)) {
+            break
+        }
+        let element = required[i]
+
+        if (element.value.trim() === '') {
+            element.setCustomValidity("Prosím vyplňte toto pole.");
+            element.scrollIntoView();
+            element.focus()
+            return false
+        } else if(element.type === 'number' && !isNumeric(element.value)) {
+            element.setCustomValidity("Prosím zadejte číslo.");
+            element.scrollIntoView();
+            element.focus()
+            return false
+        } else {
+            element.setCustomValidity("");
+        }
+    }
+
+    console.log('Valid!')
+
+    update()
 }

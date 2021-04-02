@@ -62,19 +62,20 @@
     <div class="break"></div>
 </header>
 <main>
+    <form id="form">
     <h2>Přidat nové místo</h2>
     <h3>Zadejte titulek, resp. název místa</h3>
-    <input type="text" id="title" onchange="update()" placeholder="Zde zadejte skvělý název místa">
+    <input type="text" id="title" onchange="update()" placeholder="Zde zadejte skvělý název místa" required>
     <h3>Vyberte místo na mapě nebo zadejte souřadnice</h3>
     <div class="maxwidth" id="map"></div>
-    <input id="latitude"><input id="longitude">
+    <input id="latitude" required><input id="longitude" required>
     <h3>Přidejte popis k místu</h3>
     <textarea id="summernote"></textarea>
     <h3>Vložte detaily o snímcích</h3>
     <div id="images">
     </div>
-    <button class="formButton" onclick="addImage()">Přidat obrázek ke srování</button>
-    <button class="formButton" onclick="submit()">Vygenerovat formátování souborů</button>
+    <button class="formButton" onclick="addImage(event)">Přidat obrázek ke srování</button>
+    <button class="formButton" onclick="validate(event)">Vygenerovat formátování souborů</button>
     <h3>Výstupní formát nového místa</h3>
     <h4>Do <code>markers.json</code> přidejte toto:</h4>
     <pre id="json" class="halfPRE">
@@ -87,6 +88,7 @@
     <h4>Fotografie pojmenujte tak, aby odpovídaly názvům v souboru.</h4>
     <script src="map.js" type="text/javascript"></script>
     <script src="locationSelector.js" type="text/javascript"></script>
+    </form>
 </main>
 </body>
 </html>
