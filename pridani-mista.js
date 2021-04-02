@@ -23,9 +23,14 @@ function addImage() {
         <input type="number" class="year" placeholder="2021" onchange="update()">
         <input type="text" class="attribution" placeholder="Zkratka či název zdroje" onchange="update()">
         <input type="text" class="href" placeholder="Odkaz na zdroj" onchange="update()">
+        <button class="x-button" onclick="removeImage(event)">X</button>
     `
     document.getElementById('images').appendChild(div)
     update()
+}
+
+function removeImage(e) {
+    e.target.parentElement.remove()
 }
 
 window.addEventListener('load', ev => {
