@@ -46,6 +46,10 @@ pre {
     text-align: left;
 }
 
+.ObrazekVNavodu {
+    margin-top: 13px;
+}
+
 /* CODE HIGHLIGHTS */
 
 .key {
