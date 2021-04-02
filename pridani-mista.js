@@ -104,7 +104,6 @@ function update() {
         if (div.nodeType !== 1) {
             return
         }
-        console.log(div)
         html += "\nimg"+i+" = "
 
         const img_data = {
