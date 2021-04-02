@@ -100,10 +100,10 @@ function update() {
             return
         }
         console.log(div)
-        html += "\nimg"+i+" = "
+        html += "\nconst img"+i+" = "
 
         const img_data = {
-            "url": title2file(document.getElementById('title').value + ' ' + div.querySelector('.year').value, '.jpg'),
+            "url": 'img/'+title2file(document.getElementById('title').value + ' ' + div.querySelector('.year').value, '.jpg'),
             "year": div.querySelector('.year').value,
             "attribution": "<a href='" + div.querySelector('.href').value + "'>" + div.querySelector('.attribution').value + "</a>"
         }
