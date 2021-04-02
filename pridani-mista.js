@@ -29,6 +29,7 @@ function addImage() {
 
 document.addEventListener('load', ev => {
     addImage()
+    addImage()
     update()
 });
 
