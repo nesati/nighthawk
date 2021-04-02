@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>Krajina za školou</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+
+    <!--scripts & style-->
+    <script src="comparison.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body onresize=resize()>
+<header>
+    <h1>Krajina za školou</h1>
+    <h1 class="subtitle">kolem Gymnázia Jana Keplera</h1>
+    <div class="break"></div>
+</header>
+<main>
+    <h2>Jak přidat nové místo</h2>
+    <span class="align-left white">
+        <ul class="line-height20">
+            <li>Na <a href="https://github.com/nesati/nighthawk">stánce projektu na GitHubu</a> vytvořte fork (registrujte se třeba školním G účtem) → vpravo nahoře tlačítkem "Fork".
+                <img src="img/navod-fork.png" alt="Umístění tlačítka fork." width="100%"></li>
+            <li>Lze přidávat libovolné množsví fotek k jedomu místu, fotky se ukládají do složky <code>/img</code> vašeho forku ve formátu .jpg a se stejným poměrem stran, snažte se omezit jejich velikost na stovky kB (využijte např. nástroj <a
+                    href="https://riot-optimizer.com/">RIOT</a>), v GIMPu (nebo jiném fotoeditoru) můžete doupravit perspektivu (nechte si fotky překrýt nastavením krytí horní vrstvy, měly by se překrývat více než dva zachované body). Po nahrání přes "Add file" (Vpravo nad seznamem souborů - nejdříve otevřete složku img) si zapamatujte (nebo zapište) názvy souborů - včetně přípony .jpg.     
+            	<img src="img/navod-add-file.png" alt="Přidání souboru." width="100%"></li>
+            <li>Místa se přidávají do souboru <a href="markers.json">markers.json</a> v jednoduchém formátu<ul>
+                <li>Zeměpisné souřadnice,</li>
+                <li>název místa/pohledu,</li>
+                <li>název souboru s popisem.</li>
+            </ul>
+            <img src="img/navod-edit1.png" alt="Obraz postupu editace markers.json" width="100%">
+            <img src="img/navod-edit2.png" alt="Obraz postupu editace markers.json" width="100%">
+            <img src="img/navod-navod-souradnice.png" alt="Obraz postupu editace markers.json" width="100%">
+            </li>
+            <li>Vytvořte ve složce "places" soubor s názvem uvedeným v "desc" v souboru markers.json (Můžete si ho vytvořit ve svém oblíbeném editoru a nahrát nebo ho vytvořit přímo na GitHubu. Můžete začít zkopírováním souboru vzorove-misto.html, soubor má tyto dvě části:</li>
+            <ul>
+            <li>Skript, který se stará o fotografie - je potřeba mu vyplnit všechny nahrané fotky a napsat, které dvojice se mají porovnávat... Vlastní fotka je ve vzorovém místě ta třetí (odkaz je mailto:...), </li>
+            <li>Popis místa. Můžete do něj napsat úplně cokoli, případně i (znovu) zobrazit konkrétní fotky bez porovnání, odkazy atd. Vše v klasickém HTML. Ve vzoru reprezentováno jen jedním odstavcem od &lt;p&gt; do &lt;/p&gt;.</li>
+            </ul>
+            <pre>
+&lt;script&gt;
+    function init() {
+        const img1 = {
+            "url": "img/prvni-obrazek.jpg",
+            "year": "rok pořízení" nebo číslo roku bez uvozovek,
+            "attribution": "<a href='https://www.zdroj.obrazku/adresa'>Název zdroje</a>"
+        }
+        const img2 = {
+            "url": "img/druhy-obrazek.jpg",
+            "year": "rok pořízení" nebo číslo roku bez uvozovek,
+            "attribution": "<a href='https://www.zdroj.obrazku/adresa'>Název zdroje</a>"
+        }
+        const img3 = {
+            "url": "img/treti-obrazek.jpg",
+            "year": 2020,
+            "attribution": "<a href='mailto:mail@gjk.cz'>Jméno nebo pseudonym</a>"
+        }
+
+        compare(img1, img2)
+        compare(img2, img3)
+    }
+
+    init();
+&lt;/script&gt;
+<p>
+    Popis vzorového místa. (Je nutné opakovat zadání?)
+</p>
+</pre>
+			<li>Posledním krokem je pak Pull-request
+            <img src="img/navod-pull1.png" alt="Vytvoření pull requestu" width="100%">
+            <img src="img/navod-pull2.png" alt="Vytvoření pull requestu - druhý krok" width="100%">
+			</li>
+</ul>
+    </span>
+</main>
+</body>
+</html>
