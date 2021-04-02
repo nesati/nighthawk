@@ -20,8 +20,8 @@ function addImage() {
     const div = document.createElement('div')
     div.innerHTML = `
         <input type="number" class="year" placeholder="2021" onchange="update()">
-        <input type="text" class="attribution" onchange="update()">
-        <input type="text" class="href" onchange="update()">
+        <input type="text" class="attribution" placeholder="Název zdroje" onchange="update()">
+        <input type="text" class="href" placeholder="Odkaz na zdroj" onchange="update()">
     `
     document.getElementById('images').appendChild(div)
     update()
@@ -121,6 +121,7 @@ function update() {
     html = html.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
     document.getElementById('html').innerHTML = html
+    document.getElementById('nameOfGeneratedHTML').innerHTML = title2file(document.getElementById('title').value, '.html')
 }
 
 function submit() {

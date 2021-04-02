@@ -38,7 +38,7 @@
     <link href="style.css" rel="stylesheet">
     <link href="summernote-theme.css" rel="stylesheet">
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#summernote').summernote({
                 lang: 'cs-CZ',
                 toolbar: [
@@ -63,22 +63,24 @@
 </header>
 <main>
     <h2>Přidat nové místo</h2>
-    <h3>Název</h3>
-    <input type="text" id="title" onchange="update()">
-    <h3>Místo</h3>
+    <h3>Zadejte titulek, resp. název místa</h3>
+    <input type="text" id="title" onchange="update()" placeholder="Zde zadejte skvělý název místa">
+    <h3>Vyberte místo na mapě nebo zadejte souřadnice</h3>
     <div class="maxwidth" id="map"></div>
     <input id="latitude"><input id="longitude">
-    <h3>Popis</h3>
-        <textarea id="summernote"></textarea>
-    <h3>Obrázky</h3>
+    <h3>Přidejte popis k místu</h3>
+    <textarea id="summernote"></textarea>
+    <h3>Vložte detaily o snímcích</h3>
     <div id="images">
     </div>
-    <button onclick="addImage()">Přidat obrázek</button>
-    <button onclick="submit()">Potvrdit</button>
-    <h3>%Nadpis%</h3>
+    <button class="formButton" onclick="addImage()">Přidat obrázek ke srování</button>
+    <button class="formButton" onclick="submit()">Vygenerovat formátování souborů</button>
+    <h3>Výstupní formát nového místa</h3>
+    <h4>Do markers.json přidejte toto:</h4>
     <pre id="json">
 
     </pre>
+    <h4>Vytvořte soubor <span id="nameOfGeneratedHTML">soubor.html</span> a přidejte do něj toto:</h4>
     <pre id="html">
 
     </pre>
