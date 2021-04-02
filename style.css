@@ -112,38 +112,30 @@ code{
 }
 
 #latitude, #longitude {
-    background: #333;
-    border: 0;
-    outline: 0;
-    color: #fff;
-    border-bottom: solid 1px #FFC300;
     margin: 5px;
 }
 
 input.year, input.attribution, input.href {
-    background: #333;
-    border: 0;
-    outline: 0;
-    color: #fff;
-    border-bottom: solid 1px #FFC300;
     margin: 5px;
     font-size: 17px;
     padding: 5px;
 }
 #title {
-    background: #333;
-    border: 0;
     font-size: 17px;
     border-bottom: solid 2px #FFC300;
     margin: 15px 0;
     padding: 5px;
-    outline: 0;
     font-weight: bold;
     min-width: 50%;
     max-width: calc(100% - 30px);
-    color: white;
 }
-
+input {
+    background: #333;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    border-bottom: solid 1px #FFC300;
+}
 input:invalid {
     border-color: red;
 }
