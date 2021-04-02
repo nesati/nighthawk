@@ -40,7 +40,7 @@ pre {
     margin: 0 auto;
 }
 
-pre {
+.halfPRE{
     display: inline-block;
     width: calc(50% - 15px);
     text-align: left;
@@ -101,6 +101,11 @@ a:visited {
     color: #FFC300;
 }
 
+code{
+    background-color: #333;
+    color: #fff;
+}
+
 .break {
     height: 0;
     border-bottom: #FFC300 2px solid;
@@ -159,7 +164,6 @@ input.year, input.attribution, input.href {
     background-color: #555555;
     color: white;
 }
-
 /* MAP */
 
 #map {

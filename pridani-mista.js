@@ -20,7 +20,7 @@ function addImage() {
     const div = document.createElement('div')
     div.innerHTML = `
         <input type="number" class="year" placeholder="2021" onchange="update()">
-        <input type="text" class="attribution" placeholder="Název zdroje" onchange="update()">
+        <input type="text" class="attribution" placeholder="Zkratka či název zdroje" onchange="update()">
         <input type="text" class="href" placeholder="Odkaz na zdroj" onchange="update()">
     `
     document.getElementById('images').appendChild(div)
