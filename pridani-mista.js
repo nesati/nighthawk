@@ -27,7 +27,7 @@ function addImage() {
     update()
 }
 
-document.addEventListener('load', ev => {
+window.addEventListener('load', ev => {
     addImage()
     addImage()
     update()
