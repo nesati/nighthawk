@@ -45,23 +45,23 @@
             <li>Skript, který se stará o fotografie - je potřeba mu vyplnit všechny nahrané fotky a napsat, které dvojice se mají porovnávat... Vlastní fotka je ve vzorovém místě ta třetí (odkaz je mailto:...), </li>
             <li>Popis místa. Můžete do něj napsat úplně cokoli, případně i (znovu) zobrazit konkrétní fotky bez porovnání, odkazy atd. Vše v klasickém HTML. Ve vzoru reprezentováno jen jedním odstavcem od &lt;p&gt; do &lt;/p&gt;.</li>
             </ul>
-            <pre>
+            <pre style="line-height: normal">
 &lt;script&gt;
     function init() {
         const img1 = {
             "url": "img/prvni-obrazek.jpg",
             "year": "rok pořízení" nebo číslo roku bez uvozovek,
-            "attribution": "<a href='https://www.zdroj.obrazku/adresa'>Název zdroje</a>"
+            "attribution": "&lt;a href='https://www.zdroj.obrazku/adresa'&gt;Název zdroje&lt;/a&gt;"
         }
         const img2 = {
             "url": "img/druhy-obrazek.jpg",
             "year": "rok pořízení" nebo číslo roku bez uvozovek,
-            "attribution": "<a href='https://www.zdroj.obrazku/adresa'>Název zdroje</a>"
+            "attribution": "&lt;a href='https://www.zdroj.obrazku/adresa'&gt;Název zdroje&lt;/a&gt;"
         }
         const img3 = {
             "url": "img/treti-obrazek.jpg",
             "year": 2020,
-            "attribution": "<a href='mailto:mail@gjk.cz'>Jméno nebo pseudonym</a>"
+            "attribution": "&lt;a href='mailto:mail@gjk.cz'&gt;Jméno nebo pseudonym&lt;/a&gt;"
         }
 
         compare(img1, img2)
