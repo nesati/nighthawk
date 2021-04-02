@@ -135,12 +135,11 @@ input.year, input.attribution, input.href {
     border: 0;
     font-size: 17px;
     border-bottom: solid 2px #FFC300;
-    width: 500px;
     margin: 15px 0;
     padding: 5px;
     outline: 0;
     font-weight: bold;
-    min-width: 400px;
+    min-width: 50%;
     max-width: calc(100% - 30px);
     color: white;
 }
@@ -163,6 +162,10 @@ input.year, input.attribution, input.href {
 .formButton:hover {
     background-color: #555555;
     color: white;
+}
+
+.fields_year_attribution_href{
+    margin: 15px 0;
 }
 /* MAP */
 
