@@ -155,7 +155,7 @@ input.year, input.attribution, input.href {
     transition-duration: 0.2s;
     background-color: #333;
     color: #FFC300;
-    border: 2px solid #555555;
+    border: 1px solid #ccc;
     padding: 5px 10px;
     border-radius: 3px;
 }
