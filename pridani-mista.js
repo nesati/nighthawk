@@ -18,6 +18,7 @@ const allowed_chars = 'abcdefghijklmnopqrstuvwxyz0123456789'.split('')
 
 function addImage() {
     const div = document.createElement('div')
+    div.classList.add('fields_year_attribution_href');
     div.innerHTML = `
         <input type="number" class="year" placeholder="2021" onchange="update()">
         <input type="text" class="attribution" placeholder="Zkratka či název zdroje" onchange="update()">
