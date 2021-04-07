@@ -31,7 +31,7 @@ function addImage(e=null, removable=true) {
     div.innerHTML = `
         <input type="number" class="year" placeholder="2021" onchange="update()" required>
         <input type="text" class="attribution" placeholder="Zkratka či název zdroje" onchange="update()" required>
-        <input type="text" class="href" placeholder="Odkaz na zdroj" onchange="update()" required>
+        <input type="url" class="href" placeholder="Odkaz na zdroj" onchange="update()" required>
     `
     if (removable) {
         div.innerHTML += '<button class="x-button formButton" onclick="removeImage(event)">X</button>'
