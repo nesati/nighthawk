@@ -109,6 +109,8 @@ function update() {
     }
     document.getElementById('json').innerHTML = syntaxHighlight(json)
 
+    document.getElementById('img_filenames').innerHTML = ''
+
     let html = "<script>\nfunction init() {"
 
     let i = 1
@@ -123,6 +125,12 @@ function update() {
             "year": div.querySelector('.year').value,
             "attribution": "<a href='" + div.querySelector('.href').value + "'>" + div.querySelector('.attribution').value + "</a>"
         }
+
+        const filename = document.createElement('code')
+        const br = document.createElement('br')
+        filename.innerHTML = img_data.url.replace('img/', '')
+        document.getElementById('img_filenames').appendChild(filename)
+        document.getElementById('img_filenames').appendChild(br)
 
         html += JSON.stringify(img_data, undefined, 2);
 
