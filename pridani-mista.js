@@ -121,7 +121,7 @@ function update() {
         html += "\nconst img"+i+" = "
 
         const img_data = {
-            "url": 'img/'+title2file(document.getElementById('title').value + ' ' + div.querySelector('.year').value, '.jpg'),
+            "url": 'img/'+ i + '-' + title2file(document.getElementById('title').value + ' ' + div.querySelector('.year').value, '.jpg'),
             "year": div.querySelector('.year').value,
             "attribution": "<a href='" + div.querySelector('.href').value + "'>" + div.querySelector('.attribution').value + "</a>"
         }
