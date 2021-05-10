@@ -6,3 +6,4 @@
 - [ ] Stránka pro úpravu a mazání fotek
 - [ ] vyhledávání podle krajů
 - [x] oddělit data o obrázcích a popisky do vlastních souborů
+- [ ] vysteďění a vyplnění obrázků s jiným poměrem stran
