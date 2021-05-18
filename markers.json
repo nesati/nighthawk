@@ -76,7 +76,7 @@
     "lng": 14.417718,
     "title": "Pohled na Betlémské náměstí",
     "desc": "pohled-na-betlemske-namesti.html"
-  },  
+  },
   {
     "lat": 50.087139,
     "lng": 14.325398,
@@ -102,9 +102,9 @@
     "desc": "kaple-sv-floriana-na-brevnovske-navsi.html"
   },
   {
-  "lat": "49.945864",
-  "lng": "14.326753",
-  "title": "základní škola Černošice",
-  "desc": "zakladni-skola-cernosice.html"
-}
+    "lat": "49.945864",
+    "lng": "14.326753",
+    "title": "základní škola Černošice",
+    "desc": "zakladni-skola-cernosice.html"
+  }
 ]
