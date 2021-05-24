@@ -76,7 +76,7 @@
     "lng": 14.417718,
     "title": "Pohled na Betlémské náměstí",
     "desc": "pohled-na-betlemske-namesti.html"
-  },  
+  },
   {
     "lat": 50.087139,
     "lng": 14.325398,
@@ -106,11 +106,35 @@
   "lng": "14.326753",
   "title": "základní škola Černošice",
   "desc": "zakladni-skola-cernosice.html"
-},
+  },
   {
   "lat": "49.963495",
   "lng": "14.322666",
   "title": "kostel Nanebevzetí Panny Marie",
   "desc": "kostel-nanebevzeti-panny-marie.html"
-}
+  },
+  {
+    "lat": "49.945864",
+    "lng": "14.326753",
+    "title": "základní škola Černošice",
+    "desc": "zakladni-skola-cernosice.html"
+  },
+  {
+    "lat": "49.744896",
+    "lng": "13.380949",
+    "title": "Anglické nábřeží",
+    "desc": "anglicke-nabrezi.html" 
+  },
+  {
+    "lat": "50.095105",
+    "lng": "14.405852",
+    "title": "Písecká brána",
+    "desc": "pisecka-brana.html"
+  },
+  {
+    "lat": "50.08732",
+    "lng": "14.373135",
+    "title": "Usedlost Kajetánka",
+    "desc": "usedlost-kajetanka.html"
+  }
 ]
