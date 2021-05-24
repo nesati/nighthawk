@@ -76,7 +76,7 @@
     "lng": 14.417718,
     "title": "Pohled na Betlémské náměstí",
     "desc": "pohled-na-betlemske-namesti.html"
-  },  
+  },
   {
     "lat": 50.087139,
     "lng": 14.325398,
@@ -102,11 +102,18 @@
     "desc": "kaple-sv-floriana-na-brevnovske-navsi.html"
   },
   {
+    "lat": "49.945864",
+    "lng": "14.326753",
+    "title": "základní škola Černošice",
+    "desc": "zakladni-skola-cernosice.html"
+  },
+  {
     "lat": "49.744896",
     "lng": "13.380949",
     "title": "Anglické nábřeží",
     "desc": "anglicke-nabrezi.html" 
   },
+  {
     "lat": "50.095105",
     "lng": "14.405852",
     "title": "Písecká brána",
@@ -129,5 +136,41 @@
   "lng": "13.379401",
   "title": "Salzmannova pivnice",
   "desc": "salzmannova-pivnice.html"
+  },
+  {
+  "lat": "49.841864",
+  "lng": "14.957001",
+  "title": "Rataje nad Sázavou",
+  "desc": "rataje-nad-sazavou.html"
+  },
+  {
+  "lat": "50.08732",
+  "lng": "14.373135",
+  "title": "Usedlost Kajetánka",
+  "desc": "usedlost-kajetanka.html"
+  },
+  {
+  "lat": "50.194933",
+  "lng": "14.673788",
+  "title": "Staroboleslavská brána",
+  "desc": "staroboleslavska-brana.html"
+  },
+  {
+  "lat": "50.194594",
+  "lng": "14.672355",
+  "title": "Bazilika sv. Václava",
+  "desc": "bazilika-sv-vaclava.html"
+  },
+  {
+  "lat": "50.195996",
+  "lng": "14.67661",
+  "title": "Kostel Nanebevzetí Panny Marie ",
+  "desc": "kostel-nanebevzeti-panny-marie-.html"
+  },
+  {
+  "lat": "50.089612",
+  "lng": "14.373175",
+  "title": "Na Kocourkách",
+  "desc": "na-kocourkach.html"
   }
 ]
