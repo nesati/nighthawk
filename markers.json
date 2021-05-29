@@ -102,6 +102,12 @@
     "desc": "kaple-sv-floriana-na-brevnovske-navsi.html"
   },
   {
+    "lat": "49.963495",
+    "lng": "14.322666",
+    "title": "kostel Nanebevzetí Panny Marie",
+    "desc": "kostel-nanebevzeti-panny-marie.html"
+  },
+  {
     "lat": 49.945864,
     "lng": 14.326753,
     "title": "kostel Nanebevzetí Panny Marie",
@@ -166,6 +172,12 @@
     "lng": 14.373135,
     "title": "Usedlost Kajetánka",
     "desc": "usedlost-kajetanka.html"
+  },
+  {
+    "lat": "49.963515",
+    "lng": "14.322617",
+    "title": "kostel Nanebevzetí Panny Marie Černošice",
+    "desc": "kostel-nanebevzeti-panny-marie-cernosice.html"
   },
   {
     "lat": 50.194933,
