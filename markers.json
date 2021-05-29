@@ -102,6 +102,12 @@
     "desc": "kaple-sv-floriana-na-brevnovske-navsi.html"
   },
   {
+    "lat": "49.963495",
+    "lng": "14.322666",
+    "title": "kostel Nanebevzetí Panny Marie",
+    "desc": "kostel-nanebevzeti-panny-marie.html"
+  },
+  {
     "lat": 49.945864,
     "lng": 14.326753,
     "title": "kostel Nanebevzetí Panny Marie",
@@ -168,6 +174,18 @@
     "desc": "usedlost-kajetanka.html"
   },
   {
+    "lat": "50.089612",
+    "lng": "14.373175",
+    "title": "Na Kocourkách",
+    "desc": "na-kocourkach.html"
+  },
+  {
+    "lat": "49.963515",
+    "lng": "14.322617",
+    "title": "kostel Nanebevzetí Panny Marie Černošice",
+    "desc": "kostel-nanebevzeti-panny-marie-cernosice.html"
+  },
+  {
     "lat": 50.194933,
     "lng": 14.673788,
     "title": "Staroboleslavská brána",
@@ -186,9 +204,39 @@
     "desc": "kostel-nanebevzeti-panny-marie-.html"
   },
   {
-  "lat": "50.087919",
-  "lng": "14.373572",
-  "title": "Vila Kajetánka",
-  "desc": "vila-kajetanka.html"
-}
+    "lat": "50.087919",
+    "lng": "14.373572",
+    "title": "Vila Kajetánka",
+    "desc": "vila-kajetanka.html"
+  },
+  {
+    "lat": "50.092641",
+    "lng": "14.373443",
+    "title": "Nad Hradním vodojemem",
+    "desc": "nad-hradnim-vodojemem.html"
+  },
+  {
+    "lat": "49.993515",
+    "lng": "14.205579",
+    "title": "Zámek Vysoký Újezd",
+    "desc": "zamek-vysoky-ujezd.html"
+  },
+  {
+    "lat": "49.993145",
+    "lng": "14.206873",
+    "title": "Škola Vysoký Újezd",
+    "desc": "skola-vysoky-ujezd.html"
+  },
+  {
+    "lat": "49.992115",
+    "lng": "14.206206",
+    "title": "Obchodní dům Sladký",
+    "desc": "obchodni-dum-sladky.html"
+  },
+  {
+    "lat": "50.065589",
+    "lng": "14.43834",
+    "title": "Nuselský pivovar",
+    "desc": "nuselsky-pivovar.html"
+  }
 ]
