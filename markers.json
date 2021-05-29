@@ -186,9 +186,27 @@
     "desc": "kostel-nanebevzeti-panny-marie-.html"
   },
   {
-  "lat": "50.065589",
-  "lng": "14.43834",
-  "title": "Nuselský pivovar",
-  "desc": "nuselsky-pivovar.html"
-}
+    "lat": "49.993515",
+    "lng": "14.205579",
+    "title": "Zámek Vysoký Újezd",
+    "desc": "zamek-vysoky-ujezd.html"
+  },
+  {
+    "lat": "49.993145",
+    "lng": "14.206873",
+    "title": "Škola Vysoký Újezd",
+    "desc": "skola-vysoky-ujezd.html"
+  },
+  {
+    "lat": "49.992115",
+    "lng": "14.206206",
+    "title": "Obchodní dům Sladký",
+    "desc": "obchodni-dum-sladky.html"
+  },
+  {
+    "lat": "50.065589",
+    "lng": "14.43834",
+    "title": "Nuselský pivovar",
+    "desc": "nuselsky-pivovar.html"
+  }
 ]
