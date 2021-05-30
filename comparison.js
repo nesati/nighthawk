@@ -46,10 +46,6 @@ function reset_slider() {
     });
 }
 
-function heightOffset(el) {
-    el.parentElement.style.height = el.offsetHeight + "px"
-}
-
 function resize() {
     reset_slider()
 
@@ -59,6 +55,7 @@ function resize() {
     const x = [].slice.call(document.getElementsByClassName("comparison"));
     x.forEach(el => {
         const img = el.getElementsByClassName("img-right")[0]
+        const img2 = el.getElementsByClassName("img-left")[0]
         if (img.width < img.height) {
             width = Math.min(width, img.width / img.height  * 720)
         }
@@ -67,7 +64,7 @@ function resize() {
         el.getElementsByClassName("img-left")[0].style.width = width + "px"
         el.getElementsByClassName("img-comp-overlap")[0].style.width = width + "px"
         el.style.width = width + "px"
-        window.setTimeout(heightOffset.bind(this, el.getElementsByClassName("img-comp-overlap")[0]), 10)
+        el.style.height = Math.min( img.height / img.width * width, img2.height / img2.width * width) + "px"
     });
 
     const y = [].slice.call(document.getElementsByClassName("img-comp-overlap"));
