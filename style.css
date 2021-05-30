@@ -139,6 +139,14 @@ input {
     outline: 0;
     color: #fff;
     border-bottom: solid 1px #FFC300;
+    width: 200px;
+}
+input.year {
+    width: 85px;
+}
+input.imgfile {
+    display: inline-block;
+    width: 250px;
 }
 input:invalid {
     border-color: red;

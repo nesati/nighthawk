@@ -32,6 +32,7 @@ function addImage(e=null, removable=true) {
         <input type="number" class="year" placeholder="2021" onchange="update()" required>
         <input type="text" class="attribution" placeholder="Zkratka či název zdroje" onchange="update()" required>
         <input type="url" class="href" placeholder="Odkaz na zdroj" onchange="update()" required>
+        <input type="file" class="imgfile" onchange="update()">
     `
     if (removable) {
         div.innerHTML += '<button class="x-button formButton" onclick="removeImage(event)">X</button>'
@@ -120,8 +121,16 @@ function update() {
         }
         html += "\nconst img"+i+" = "
 
+        let ext;
+        const files = div.querySelector('.imgfile').files
+        if (files.length > 0) {
+            ext = files[0].name.split('.').pop() // file extension is the part behind last dot
+        } else {
+            ext = 'jpg' // default
+        }
+
         const img_data = {
-            "url": 'img/'+ i + '-' + title2file(document.getElementById('title').value + ' ' + div.querySelector('.year').value, '.jpg'),
+            "url": 'img/'+ i + '-' + title2file(document.getElementById('title').value + ' ' + div.querySelector('.year').value, '.' + ext),
             "year": div.querySelector('.year').value,
             "attribution": "<a href='" + div.querySelector('.href').value + "'>" + div.querySelector('.attribution').value + "</a>"
         }
