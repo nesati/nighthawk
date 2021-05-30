@@ -212,6 +212,7 @@ input:invalid {
 
 .comparison {
     position: relative;
+    overflow: hidden;
 }
 
 .img-left, .img-right {

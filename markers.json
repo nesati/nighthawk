@@ -132,12 +132,6 @@
     "desc": "pisecka-brana.html"
   },
   {
-    "lat": 50.08732,
-    "lng": 14.373135,
-    "title": "Usedlost Kajetánka",
-    "desc": "usedlost-kajetanka.html"
-  },
-  {
     "lat": 49.841196,
     "lng": 14.954061,
     "title": "Pirkenštejn",
@@ -174,6 +168,12 @@
     "desc": "usedlost-kajetanka.html"
   },
   {
+    "lat": "50.089612",
+    "lng": "14.373175",
+    "title": "Na Kocourkách",
+    "desc": "na-kocourkach.html"
+  },
+  {
     "lat": "49.963515",
     "lng": "14.322617",
     "title": "kostel Nanebevzetí Panny Marie Černošice",
@@ -196,6 +196,30 @@
     "lng": 14.67661,
     "title": "Kostel Nanebevzetí Panny Marie ",
     "desc": "kostel-nanebevzeti-panny-marie-.html"
+  },
+  {
+    "lat": "50.424124",
+    "lng": "14.258826",
+    "title": "Rolnická záložna Podřipská",
+    "desc": "rolnicka-zalozna-podripska.html"
+  },
+  {
+    "lat": "50.425086",
+    "lng": "14.258357",
+    "title": "Kulturní dům Říp",
+    "desc": "kulturni-dum-rip.html"
+  },
+  {
+    "lat": "50.087919",
+    "lng": "14.373572",
+    "title": "Vila Kajetánka",
+    "desc": "vila-kajetanka.html"
+  },
+  {
+    "lat": "50.092641",
+    "lng": "14.373443",
+    "title": "Nad Hradním vodojemem",
+    "desc": "nad-hradnim-vodojemem.html"
   },
   {
     "lat": "49.993515",
@@ -226,5 +250,5 @@
   "lng": "14.364462",
   "title": "Radotínské nádraží",
   "desc": "radotinske-nadrazi.html"
-}
+  }
 ]
