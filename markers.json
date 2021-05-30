@@ -102,18 +102,6 @@
     "desc": "kaple-sv-floriana-na-brevnovske-navsi.html"
   },
   {
-    "lat": "49.963495",
-    "lng": "14.322666",
-    "title": "kostel Nanebevzetí Panny Marie",
-    "desc": "kostel-nanebevzeti-panny-marie.html"
-  },
-  {
-    "lat": 49.945864,
-    "lng": 14.326753,
-    "title": "kostel Nanebevzetí Panny Marie",
-    "desc": "kostel-nanebevzeti-panny-marie.html"
-  },
-  {
     "lat": 49.945864,
     "lng": 14.326753,
     "title": "základní škola Černošice",
@@ -198,6 +186,18 @@
     "desc": "kostel-nanebevzeti-panny-marie-.html"
   },
   {
+    "lat": "50.424124",
+    "lng": "14.258826",
+    "title": "Rolnická záložna Podřipská",
+    "desc": "rolnicka-zalozna-podripska.html"
+  },
+  {
+    "lat": "50.425086",
+    "lng": "14.258357",
+    "title": "Kulturní dům Říp",
+    "desc": "kulturni-dum-rip.html"
+  },
+  {
     "lat": "50.087919",
     "lng": "14.373572",
     "title": "Vila Kajetánka",
@@ -232,5 +232,11 @@
     "lng": "14.43834",
     "title": "Nuselský pivovar",
     "desc": "nuselsky-pivovar.html"
+  },
+  {
+    "lat": "49.985754",
+    "lng": "14.364462",
+    "title": "Radotínské nádraží",
+    "desc": "radotinske-nadrazi.html"
   }
 ]
