@@ -102,18 +102,6 @@
     "desc": "kaple-sv-floriana-na-brevnovske-navsi.html"
   },
   {
-    "lat": "49.963495",
-    "lng": "14.322666",
-    "title": "kostel Nanebevzetí Panny Marie",
-    "desc": "kostel-nanebevzeti-panny-marie.html"
-  },
-  {
-    "lat": 49.945864,
-    "lng": 14.326753,
-    "title": "kostel Nanebevzetí Panny Marie",
-    "desc": "kostel-nanebevzeti-panny-marie.html"
-  },
-  {
     "lat": 49.945864,
     "lng": 14.326753,
     "title": "základní škola Černošice",
@@ -246,9 +234,9 @@
     "desc": "nuselsky-pivovar.html"
   },
   {
-  "lat": "49.985754",
-  "lng": "14.364462",
-  "title": "Radotínské nádraží",
-  "desc": "radotinske-nadrazi.html"
+    "lat": "49.985754",
+    "lng": "14.364462",
+    "title": "Radotínské nádraží",
+    "desc": "radotinske-nadrazi.html"
   }
 ]
