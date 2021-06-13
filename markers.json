@@ -238,5 +238,11 @@
     "lng": "14.364462",
     "title": "Radotínské nádraží",
     "desc": "radotinske-nadrazi.html"
-  }
+  },
+  {
+  "lat": "50.080397",
+  "lng": "14.387956",
+  "title": "Stadion Strahov",
+  "desc": "stadion-strahov.html"
+}
 ]
