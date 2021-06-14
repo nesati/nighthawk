@@ -240,15 +240,21 @@
     "desc": "radotinske-nadrazi.html"
   },
   {
-  "lat": "50.129995",
-  "lng": "14.373658",
-  "title": "Rektorát ČZU",
-  "desc": "rektorat-czu.html"
-},
+    "lat": "50.157484",
+    "lng": "14.395081",
+    "title": "RHG - nemocnice Roztoky",
+    "desc": "rhg-nemocnice-roztoky.html"
+  },
   {
-  "lat": "50.135407",
-  "lng": "14.388506",
-  "title": "Vyhlídka na Sedlec",
-  "desc": "vyhlidka-na-sedlec.html"
-}
+    "lat": "50.129995",
+    "lng": "14.373658",
+    "title": "Rektorát ČZU",
+    "desc": "rektorat-czu.html"
+  },
+  {
+    "lat": "50.135407",
+    "lng": "14.388506",
+    "title": "Vyhlídka na Sedlec",
+    "desc": "vyhlidka-na-sedlec.html"
+  }
 ]
