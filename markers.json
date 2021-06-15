@@ -268,5 +268,23 @@
     "lng": "14.781767",
     "title": "Lesnatý vrch Klepec",
     "desc": "lesnaty-vrch-klepec.html"
+  },
+  {
+    "lat": "50.095299",
+    "lng": "14.381579",
+    "title": "Pohled na Ústřední budovu",
+    "desc": "pohled-na-ustredni-budovu.html"
+  },
+  {
+    "lat": "50.096694",
+    "lng": "14.38022",
+    "title": "Pohled na ulici Na klínku",
+    "desc": "pohled-na-ulici-na-klinku.html"
+  },
+  {
+    "lat": "50.095095",
+    "lng": "14.387887",
+    "title": "Pohled na ulici Na Ořechvoce",
+    "desc": "pohled-na-ulici-na-orechvoce.html"
   }
 ]
