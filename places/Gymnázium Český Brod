@@ -1,0 +1,31 @@
+<script>
+
+function init() {
+
+const img1 = {
+
+  "url": "img/1-gymnazium-cesky-brod-2021.jpg",
+
+  "year": "2021",
+
+  "attribution": "<a href=''></a>"
+
+}
+
+const img2 = {
+
+  "url": "img/2-gymnazium-cesky-brod-1949.jpg",
+
+  "year": "1949",
+
+  "attribution": "<a href=''></a>"
+
+}
+
+compare(img1, img2)
+
+}
+
+init();
+
+</script><p>První myšlenku na založení gymnázia v Českém Brodě vznesl na zasedání městského zastupitelstva dne 28. prosince 1918 Jozef Miškovský, který byl v té době mimo jiné redaktorem časopisu Naše hlasy. Již 28. března 1919 bylo městské radě, okresnímu výboru a dalším institucím navrhnuto zřízení moderní střední školy v podobě reálného gymnázia. V červnu byla ministerstvu školství podána žádost o zřízení školy, která byla 12. srpna téhož roku přijata, díky čemuž mohlo v září dojít k zahájení provozu.</p><p><br></p><p>Zpočátku však gymnázium nemělo žádnou vlastní budovu. Její základní kámen byl položen 1. října 1921 a otevřena byla v září 1924. Celá stavba tehdy stála přes 3,6 milionu korun. Výstavba byla rozdělena do tří etap, ovšem k poslední z nich, zahrnující západní křídlo s tělocvičnou, kabinety a laboratořemi, nikdy nedošlo. Kvůli absenci tělocvičny byla v přízemí východní části budovy vybudována malá dočasná tělocvična, která ovšem zůstala jako jediná na škole až do současnosti (2021).</p>
