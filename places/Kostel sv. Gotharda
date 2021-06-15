@@ -1,0 +1,18 @@
+.html a přidejte do něj toto:
+<script>
+function init() {
+const img1 = {
+  "url": "img/1-kostel-sv-gotharda-2021.jpg",
+  "year": "2021",
+  "attribution": "<a href=''></a>"
+}
+const img2 = {
+  "url": "img/2-kostel-sv-gotharda-1890.jpg",
+  "year": "1890",
+  "attribution": "<a href=''></a>"
+}
+compare(img1, img2)
+
+}
+init();
+</script><p>Kostel sv. Gotharda je původem románský Kostelík z doby kolem roku 1135, jenž byl v polovině 14. století přestavěn na gotický trojlodní kostel, v 17. století opraven renesančně a nakonec ve století 18. století i barokně.</p><p>Českobrodský kostel sv. Gotharda byl přestavěn z původního kostela (z roku 1130) po požáru ve 14. století přestavěn na trojlodní baziliku se dvěma věžemi. V letech 1765-1772 prošel barokní přestavbou, věže kostela byly sníženy na úroveň lodě a místo toho vystavěna jedna ve středu průčelí.</p><p>Ve středověku mnohokrát zhořel a musel se rekonstruovat.</p>
