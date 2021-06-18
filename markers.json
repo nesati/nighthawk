@@ -286,5 +286,59 @@
     "lng": "14.387887",
     "title": "Pohled na ulici Na Ořechvoce",
     "desc": "pohled-na-ulici-na-orechvoce.html"
+  },
+  {
+    "lat": "50.073746",
+    "lng": "14.860713",
+    "title": "Kostel sv. Gotharda",
+    "desc": "kostel-sv-gotharda.html"
+  },
+  {
+    "lat": "50.074786",
+    "lng": "14.855252",
+    "title": "Gymnázium Český Brod",
+    "desc": "gymnazium-cesky-brod.html"
+  },
+  {
+    "lat": "49.202321",
+    "lng": "16.60504",
+    "title": "Botanická ulice",
+    "desc": "botanicka-ulice.html"
+  },
+  {
+    "lat": "49.19627",
+    "lng": "16.605764",
+    "title": "Česká - Veselá",
+    "desc": "ceska-vesela.html"
+  },
+  {
+    "lat": "49.205773",
+    "lng": "16.597149",
+    "title": "Kounicova ulice",
+    "desc": "kounicova-ulice.html"
+  },
+  {
+    "lat": "49.198163",
+    "lng": "16.590353",
+    "title": "Masarykova čtvrť",
+    "desc": "masarykova-ctvrt.html"
+  },
+  {
+    "lat": "49.192043",
+    "lng": "16.613023",
+    "title": "Nádražní budova",
+    "desc": "nadrazni-budova.html"
+  },
+  {
+    "lat": "49.192733",
+    "lng": "16.602331",
+    "title": "Pellicova ulice",
+    "desc": "pellicova-ulice.html"
+  },
+  {
+    "lat": "49.196684",
+    "lng": "16.607647",
+    "title": "Rašínova ulice",
+    "desc": "rasinova-ulice.html"
   }
 ]
