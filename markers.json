@@ -240,6 +240,24 @@
     "desc": "radotinske-nadrazi.html"
   },
   {
+    "lat": "50.129995",
+    "lng": "14.373658",
+    "title": "Rektorát ČZU",
+    "desc": "rektorat-czu.html"
+  },
+  {
+    "lat": "50.135407",
+    "lng": "14.388506",
+    "title": "Vyhlídka na Sedlec",
+    "desc": "vyhlidka-na-sedlec.html"
+  },
+  {
+    "lat": "50.140062",
+    "lng": "14.379065",
+    "title": "Základní škola Mikoláše Alše",
+    "desc": "zakladni-skola-mikolase-alse.html"
+  },
+  {
     "lat": "50.080397",
     "lng": "14.387956",
     "title": "Stadion Strahov",
