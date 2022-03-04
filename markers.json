@@ -358,5 +358,11 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
+  },
+  {
+  "lat": "50.159477",
+  "lng": "14.398315",
+  "title": "Roztoky, nádraží",
+  "desc": "roztoky-nadrazi.html"
   }
 ]
