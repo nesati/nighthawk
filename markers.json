@@ -370,5 +370,11 @@
   "lng": "14.430971",
   "title": "Národní muzeum",
   "desc": "narodni-muzeum.html"
+  },
+  {
+  "lat": "50.080966",
+  "lng": "14.414352",
+  "title": "Národní divadlo",
+  "desc": "narodni-divadlo.html"
   }
 ]
