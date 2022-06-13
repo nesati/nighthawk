@@ -358,5 +358,11 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
+  },
+  {
+  "lat": "50.082288",
+  "lng": "14.436207",
+  "title": "Hlavní nádraží",
+  "desc": "hlavni-nadrazi.html"
   }
 ]
