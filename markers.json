@@ -364,5 +364,11 @@
   "lng": "14.436207",
   "title": "Hlavní nádraží",
   "desc": "hlavni-nadrazi.html"
+  },
+  {
+  "lat": "50.078887",
+  "lng": "14.430971",
+  "title": "Národní muzeum",
+  "desc": "narodni-muzeum.html"
   }
 ]
