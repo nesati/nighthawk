@@ -364,5 +364,11 @@
     "lng": "14.411981",
     "title": "Národní divadlo",
     "desc": "narodni-divadlo.html"
+  },
+  {
+  "lat": "50.087651",
+  "lng": "14.404331",
+  "title": "Malostranské náměstí",
+  "desc": "malostranske-namesti.html"
   }
 ]
