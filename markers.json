@@ -358,5 +358,11 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
+  },
+  {
+    "lat": "50.081393",
+    "lng": "14.411981",
+    "title": "Národní divadlo",
+    "desc": "narodni-divadlo.html"
   }
 ]
