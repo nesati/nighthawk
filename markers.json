@@ -366,15 +366,21 @@
     "desc": "narodni-divadlo.html"
   },
   {
-  "lat": "50.087651",
-  "lng": "14.404331",
-  "title": "Malostranské náměstí",
-  "desc": "malostranske-namesti.html"
+    "lat": "50.087651",
+    "lng": "14.404331",
+    "title": "Malostranské náměstí",
+    "desc": "malostranske-namesti.html"
   },
   {
-  "lat": "50.086845",
-  "lng": "14.403768",
-  "title": "Kostel sv. Mikuláše",
-  "desc": "kostel-sv-mikulase.html"
+    "lat": "50.086845",
+    "lng": "14.403768",
+    "title": "Kostel sv. Mikuláše",
+    "desc": "kostel-sv-mikulase.html"
+  },
+  {
+    "lat": "50.065011",
+    "lng": "14.431272",
+    "title": "Nuselský most",
+    "desc": "nuselsky-most.html"
   }
 ]
