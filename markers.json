@@ -358,5 +358,23 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
+  },
+  {
+  "lat": "50.101038",
+  "lng": "14.432173",
+  "title": "Veletržní palác",
+  "desc": "veletrzni-palac.html"
+  },
+  {
+  "lat": "50.099954",
+  "lng": "14.424357",
+  "title": "Ulice Milady Horákové",
+  "desc": "ulice-milady-horakove.html"
+  },
+  {
+  "lat": "50.098725",
+  "lng": "14.43507",
+  "title": "Kostel sv. Antonína z Padovy",
+  "desc": "kostel-sv-antonina-z-padovy.html"
   }
 ]
