@@ -358,5 +358,17 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
+  },
+  {
+  "lat": "50.079011",
+  "lng": "14.412786",
+  "title": "palác Žofín",
+  "desc": "palac-zofin.html"
+  },
+  {
+  "lat": "50.077186",
+  "lng": "14.413789",
+  "title": "Mánes",
+  "desc": "manes.html"
   }
 ]
