@@ -358,5 +358,11 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
+  },
+  {
+  "lat": "50.075568",
+  "lng": "14.410983",
+  "title": "Jiráskův most",
+  "desc": "jiraskuv-most.html"
   }
 ]
