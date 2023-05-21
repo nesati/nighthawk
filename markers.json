@@ -358,5 +358,23 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
+  },
+  {
+  "lat": "50.105996",
+  "lng": "14.413984",
+  "title": "Místodržitelský letohrádek v Královské oboře",
+  "desc": "mistodrzitelsky-letohradek-v-kralovske-obore.html"
+  },
+  {
+  "lat": "50.114105",
+  "lng": "14.416956",
+  "title": "Osada Rybáře v Troji",
+  "desc": "osada-rybare-v-troji.html"
+  },
+  {
+  "lat": "50.117634",
+  "lng": "14.416988",
+  "title": "Kovárna v Troji",
+  "desc": "kovarna-v-troji.html"
   }
-]
+  ]
