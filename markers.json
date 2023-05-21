@@ -358,5 +358,23 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
-  }
+  },
+  {
+		"lat": "50.083188",
+		"lng": "14.395071",
+		"title": "Petřínská rozhledna",
+		"desc": "petrinska-rozhledna.html"
+		},
+		{
+		"lat": "50.089199",
+		"lng": "14.428488",
+		"title": "OD Kotva",
+		"desc": "OD-Kotva.html"
+		},              
+    {
+    "lat": "50.087286",
+		"lng": "14.428567",
+		"title": "Prašná brána",
+		"desc": "prasna-brana.html"
+		}
 ]
