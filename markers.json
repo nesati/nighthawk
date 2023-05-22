@@ -358,5 +358,24 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
-  }
+  },
+  {
+  "lat": "50.087451",
+  "lng": "14.420489",
+  "title": "Staroměstská radnice",
+  "desc": "staromestska-radnice.html"
+},
+  {
+  "lat": "50.079716",
+  "lng": "14.430301",
+  "title": "Václavské náměstí, Dům potravin",
+  "desc": "vaclavske-namesti-dum-potravin.html"
+},
+  {
+  "lat": "50.089272",
+  "lng": "14.46327",
+  "title": "Koněvova x Domažlická ulice",
+  "desc": "konevova-x-domazlicka-ulice.html"
+}
 ]
+
