@@ -358,5 +358,11 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
+  },
+  {
+  "lat": "50.086251",
+  "lng": "14.405223",
+  "title": "Maltézské náměstí",
+  "desc": "maltezske-namesti.html"
   }
 ]
