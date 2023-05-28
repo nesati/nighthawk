@@ -358,5 +358,23 @@
     "lng": "16.607647",
     "title": "Rašínova ulice",
     "desc": "rasinova-ulice.html"
+  },
+  {
+  "lat": "50.082288",
+  "lng": "14.436207",
+  "title": "Hlavní nádraží",
+  "desc": "hlavni-nadrazi.html"
+  },
+  {
+  "lat": "50.078887",
+  "lng": "14.430971",
+  "title": "Národní muzeum",
+  "desc": "narodni-muzeum.html"
+  },
+  {
+  "lat": "50.080966",
+  "lng": "14.414352",
+  "title": "Národní divadlo",
+  "desc": "narodni-divadlo.html"
   }
 ]
