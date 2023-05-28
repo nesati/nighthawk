@@ -370,5 +370,23 @@
   "lng": "14.325483",
   "title": "Statek \"U Durasů\" a křžovatka ulic Libocká a Ruzyňská",
   "desc": "statek-u-durasu-a-krzovatka-ulic-libocka-a-ruzynska.html"
-  } 
+  },
+  {
+  "lat": "50.082288",
+  "lng": "14.436207",
+  "title": "Hlavní nádraží",
+  "desc": "hlavni-nadrazi.html"
+  },
+  {
+  "lat": "50.078887",
+  "lng": "14.430971",
+  "title": "Národní muzeum",
+  "desc": "narodni-muzeum.html"
+  },
+  {
+  "lat": "50.080966",
+  "lng": "14.414352",
+  "title": "Národní divadlo",
+  "desc": "narodni-divadlo.html"
+  }
 ]
