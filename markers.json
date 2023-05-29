@@ -360,6 +360,18 @@
     "desc": "rasinova-ulice.html"
   },
   {
+    "lat": "50.06774",
+    "lng": "14.415001",
+    "title": "Výtoň",
+    "desc": "vyton.html"
+  },
+  {
+    "lat": "50.087637",
+    "lng": "14.422372",
+    "title": "Týnský chrám",
+    "desc": "tynsky_chram.html"
+  },
+  {
     "lat": "50.055406",
     "lng": "14.372673",
     "title": "Továrna Walter",
