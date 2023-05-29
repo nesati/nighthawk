@@ -360,6 +360,24 @@
     "desc": "rasinova-ulice.html"
   },
   {
+  "lat": "50.086251",
+  "lng": "14.405223",
+  "title": "Maltézské náměstí",
+  "desc": "maltezske-namesti.html"
+  },
+  {
+  "lat": "50.093441",
+  "lng": "14.416746",
+  "title": "Stalinův pomník",
+  "desc": "stalinuv-pomnik.html"
+  },
+  {
+  "lat": "50.087407",
+  "lng": "14.421474",
+  "title": "Mariánský sloup",
+  "desc": "mariansky-sloup.html"
+  },
+  {
   "lat": "50.088473",
   "lng": "14.327494",
   "title": "Pohled do ulice Libocká",
