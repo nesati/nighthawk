@@ -442,5 +442,23 @@
     "lng": "14.428567",
     "title": "Prašná brána",
     "desc": "prasna-brana.html"
+  },
+  {
+  "lat": "50.109344",
+  "lng": "14.393437",
+  "title": "Grand Hotel International",
+  "desc": "grand-hotel-international.html"
+  },
+  {
+  "lat": "50.101877",
+  "lng": "14.389056",
+  "title": "Kostel sv. Vojtěcha",
+  "desc": "kostel-sv-vojtecha.html"
+  },
+  {
+  "lat": "50.097846",
+  "lng": "14.403005",
+  "title": "Havlíčkova třída",
+  "desc": "havlickova-trida.html"
   }
 ]
