@@ -360,22 +360,22 @@
     "desc": "rasinova-ulice.html"
   },
   {
-  "lat": "50.084766",
-  "lng": "14.366105",
-  "title": "Poliklinika Pod Marjánkou",
-  "desc": "poliklinika-pod-marjankou.html"
+    "lat": "50.084766",
+    "lng": "14.366105",
+    "title": "Poliklinika Pod Marjánkou",
+    "desc": "poliklinika-pod-marjankou.html"
   },
   {
-  "lat": "50.084945",
-  "lng": "14.382219",
-  "title": "Malovanka",
-  "desc": "malovanka.html"
+    "lat": "50.084945",
+    "lng": "14.382219",
+    "title": "Malovanka",
+    "desc": "malovanka.html"
   },
   {
-  "lat": "50.085227",
-  "lng": "14.375761",
-  "title": "ZS Pod Marjankou",
-  "desc": "zs-pod-marjankou.html"
+    "lat": "50.085227",
+    "lng": "14.375761",
+    "title": "ZS Pod Marjankou",
+    "desc": "zs-pod-marjankou.html"
   },
   {
     "lat": "50.06774",
@@ -395,7 +395,7 @@
     "title": "Továrna Walter",
     "desc": "tovarna-walter.html"
   },
-  {  
+  {
     "lat": "50.105996",
     "lng": "14.413984",
     "title": "Místodržitelský letohrádek v Královské oboře",
