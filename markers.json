@@ -484,5 +484,23 @@
     "lng": "14.431272",
     "title": "Nuselský most",
     "desc": "nuselsky-most.html"
+  },
+  {
+    "lat": "50.050898",
+    "lng": "14.362932",
+    "title": "Trolejbusové obratiště v Jinonicích",
+    "desc": "trolejbusove-obratiste-v-jinonicich.html"
+  },
+  {
+    "lat": "50.055406",
+    "lng": "14.372673",
+    "title": "Továrna Walter",
+    "desc": "tovarna-walter.html"
+  },
+  {
+    "lat": "50.052524",
+    "lng": "14.357996",
+    "title": "Jinonický rybník",
+    "desc": "jinonicky-rybnik.html"
   }
 ]
